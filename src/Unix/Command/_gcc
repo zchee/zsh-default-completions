@@ -339,16 +339,31 @@ h8/300)
 esac
 
 if [[ "$service" = clang* ]]; then
-    args=(
-        $args
-        -flto -emit-llvm
+    args+=(
+        "-flto=-[generate output files suitable for link time optimization]::style:(full thin)"
+        -emit-llvm
         "-Qunused-arguments[don't emit warning for unused driver arguments]"
         --analyze
         -fshow-column -fshow-source-location -fcaret-diagnostics -fdiagnostics-fixit-info
         -fdiagnostics-parseable-fixits -fdiagnostics-print-source-range-info
         -fprint-source-range-info -fdiagnostics-show-option -fmessage-length
+        "-nostdinc[Do not search standard system directories or compiler builtin directories for include files]"
+        "-nostdlibinc[Do not search standard system directories for include files]"
+        "-nobuiltininc[Do not search builtin directory for include files]"
+    )
+else
+    args+=(
+      '-flto=-[Enable link-time optimization]::jobs:'
     )
 fi
+
+local -a sanitizers
+    sanitizers=(
+        address alignment bool bounds enum float-cast-overflow float-divide-by-zero
+        integer-divide-by-zero memory nonnull-attribute null nullability-arg nullability-assign
+        nullability-return object-size pointer-overflow return unsigned-integer-overflow
+        returns-nonnull-attribute shift signed-integer-overflow unreachable vla-bound vptr
+    )
 
 local -a languages
 languages=(
@@ -367,7 +382,6 @@ languages=(
 
 # generic options (from --help)
 args+=(
-  -a -C -H -P -s
   '-###[print commands to run this compilation]'
   '-o:output file:_files -g "^*.(c|h|cc|C|cxx)(-.)"'
   '-x[Specify the language of the following input files]:input file language:('"$languages"')'
@@ -379,6 +393,10 @@ args+=(
   '*-A-:define assertion:'
   '*-D-:define macro:'
   '*-U-:undefine macro:'
+  '-C[do not discard comments during preprocess]'
+  '-CC[do not discard comments, including macro expansion]'
+  '-P[inhibit generation of linkemakers during preprocess]'
+  '-H[print name of each header file used]'
   '-E[Preprocess only; do not compile, assemble or link]'
   '-S[Compile only; do not assemble or link]'
   '-c[Compile and assemble, but do not link]'
@@ -399,7 +417,7 @@ args+=(
   '-print-file-name=-[Display the full path to library <library>]:library:->library'
   '-print-prog-name=-[Display the full path to compiler component <program>]:program:'
   '*-specs=-[Override built-in specs with the contents of <file>]:file:_files'
-  '-std=-[assume that the input sources are for specified standard]:standard:(c90 c89 c99 c11 gnu90 gnu89 gnu99 gnu11 c++98 c++03 gnu++98 gnu++03 c++11 gnu++11 c++1y gnu++1y c++14 gnu++14 c++1z gnu++1z c++17 gnu++17 c++2a gnu++2a)'
+  '-std=-[assume that the input sources are for specified standard]:standard:(c90 c89 iso9899\:1990 iso9899\:199409 c99 iso9899\:1999 c11 iso9899\:2011 gnu90 gnu89 gnu99 gnu11 c++98 c++03 gnu++98 gnu++03 c++11 gnu++11 c++1y gnu++1y c++14 gnu++14 c++1z gnu++1z c++17 iso9899\:2017 gnu++17 c++2a gnu++2a)'
   '*-include:include file:_files -g \*.h\(-.\)'
   '*-imacros:macro input file:_files -g \*.h\(-.\)'
   '*-idirafter:second include path directory:_files -/'
@@ -950,7 +968,7 @@ args+=(
 args+=(
   '-nostartfiles[Do not use the standard system startup files when linking]'
   '-nodefaultlibs[Do not use the standard system libraries when linking]'
-  '-nostdlib[Do not use the standard system startup files or libraries when linking]'
+  '-nostdlib[Do not use standard system startup files or libraries when linking]'
   '-rdynamic[Pass the flag -export-dynamic to the ELF linker, on targets that support it]'
   '-s[Remove all symbol table and relocation information from the executable]'
   '-static[On systems that support dynamic linking, this prevents linking with the shared libraries]'
@@ -1034,7 +1052,6 @@ args+=(
   '-flto-odr-type-merging[Merge C++ types using One Definition Rule]'
   '-flto-partition=-[Partition symbols and vars at linktime based on object files they originate from]:partitioning algorithm:(1to1 balanced max one none)'
   '-flto-report[Report various link-time optimization statistics]'
-  '-flto=-[Enable link-time optimization]::jobs:'
   '-fmax-errors=-[Maximum number of errors to report]:errors: '
   '-fmem-report-wpa[Report on permanent memory allocation in WPA only]'
   '-fmem-report[Report on permanent memory allocation]'
@@ -1061,7 +1078,7 @@ args+=(
   '-freciprocal-math[Same as -fassociative-math for expressions which include division]'
   '-frecord-gcc-switches[Record gcc command line switches in the object file]'
   '-free[Turn on Redundant Extensions Elimination pass]'
-  '-fsanitize=-[Enable AddressSanitizer, a memory error detector]:style:(address thread)'
+  "-fsanitize=-[Enable AddressSanitizer, a memory error detector]:style:($sanitizers)"
   '-fsched-stalled-insns-dep=-[Set dependence distance checking in premature scheduling of queued insns]:instructions: '
   '-fsched-stalled-insns=-[Set number of queued insns that can be prematurely scheduled]:instructions: '
   '-fsched-verbose=-[Set the verbosity level of the scheduler]:verbosity: '

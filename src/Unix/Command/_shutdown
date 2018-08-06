@@ -27,8 +27,8 @@ case $OSTYPE in
       '*:warning message'
     )
   ;|
-  *bsd*|dragonfly*|linux*)
-    args=(
+  *bsd*|dragonfly*)
+    args+=(
       '-p[turn off power after shutdown]'
     )
   ;|
@@ -41,6 +41,11 @@ case $OSTYPE in
   freebsd*|dragonfly*)
     args+=(
       '-o[execute halt or reboot instead of sending a signal to init]'
+    )
+  ;|
+  freebsd<12->.*)
+    args+=(
+      '-c[power cycle the system instead of halting if possible]'
     )
   ;;
   netbsd*)
