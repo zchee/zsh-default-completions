@@ -738,11 +738,11 @@ _git-describe () {
     '--all[use any ref found in "$GIT_DIR/refs/"]' \
     '--tags[use any ref found in "$GIT_DIR/refs/tags"]' \
     '(--tags)--contains[find the tag after the commit instead of before]' \
-    '(--long)--abbrev=[set minimum SHA1 display-length]: :__git_guard_number length' \
+    '--abbrev=[set minimum SHA1 display-length]: :__git_guard_number length' \
     '(             --exact-match)--candidates=[consider up to given number of candidates]: :__git_guard_number "number of candidates"' \
     '(--candidates              )--exact-match[only output exact matches, same as --candidates=0]' \
     '--debug[display information about the searching strategy]' \
-    '(--abbrev)--long[always show full format, even for exact matches]' \
+    '--long[always show full format, even for exact matches]' \
     '*--match=[only consider tags matching glob pattern]:pattern' \
     "*--exclude=[don't consider tags matching glob pattern]:pattern" \
     '--always[show uniquely abbreviated commit object as fallback]' \
@@ -3607,15 +3607,7 @@ _git-remote () {
             '(-m --master)'{-m,--master=}'[set HEAD of remote to point to given master branch]: :__git_branch_names' \
 	    '--mirror[do not use separate remotes]::mirror type:(fetch pull)' \
             ':name:__git_remotes' \
-            ':repository:->repository' && ret=0
-	  case $state in
-	    (repository)
-            _alternative \
-              'local-repositories::__git_local_repositories' \
-              'remote-repositories::__git_remote_repositories' \
-	      'urls::_urls' && ret=0
-	    ;;
-	  esac
+            ':repository:__git_repositories_or_urls' && ret=0
           ;;
         (get-url)
           _arguments -S -s \
@@ -3644,14 +3636,13 @@ _git-remote () {
             '*: :__git_branch_names' && ret=0
           ;;
         (set-url)
-          # TODO: Old URL should be one of those defined for the remote.
-          _arguments -S -s \
-            '(3)--push[manipulate push URLs instead of fetch URLs]' \
-            '--add[add URL to those already defined]' \
-            '(3)--delete[delete all matching URLs]' \
-            ': :__git_remotes' \
-            ':new url:_urls' \
-            ':old url:_urls' && ret=0
+          _arguments -S \
+            '--push[manipulate push URLs instead of fetch URLs]' \
+            '(3)--add[add URL to those already defined]' \
+            '(2)--delete[delete all matching URLs]' \
+            '1: :__git_remotes' \
+            '2:new url:__git_repositories_or_urls' \
+            '3:old url: __git_current_remote_urls ${(k)opt_args[--push]} $line[1]' && ret=0
           ;;
         (show)
           _arguments -S \
@@ -6812,7 +6803,7 @@ __git_files () {
   local pref=$gitcdup$gitprefix$PREFIX
 
   # First allow ls-files to pattern-match in case of remote repository
-  files=(${(0)"$(_call_program files git ls-files -z --exclude-standard ${(q)opts} -- ${(q)${pref:+$pref\\\*}:-.} 2>/dev/null)"})
+  files=(${(0)"$(_call_program files git ls-files -z --exclude-standard ${(q)opts} -- ${(q)${pref:+$pref\*}:-.} 2>/dev/null)"})
   __git_command_successful $pipestatus || return
 
   # If ls-files succeeded but returned nothing, try again with no pattern
@@ -6969,6 +6960,21 @@ __git_local_repositories () {
   local expl
 
   _wanted local-repositories expl 'local repositories' _directories
+}
+
+(( $+functions[__git_repositories_or_urls] )) ||
+__git_repositories_or_urls () {
+  _alternative \
+    'repositories::__git_repositories' \
+    'urls::_urls'
+}
+
+(( $+functions[__git_current_remote_urls] )) ||
+__git_current_remote_urls () {
+  local expl
+  _description remote-urls expl 'current url'
+  compadd "$expl[@]" -M 'r:|/=* r:|=*' - ${(f)"$(_call_program remote-urls
+      git remote get-url "$@" --all)"}
 }
 
 (( $+functions[__git_any_repositories] )) ||
