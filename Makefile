@@ -12,9 +12,7 @@ src: clean.src
 
 .PHONY: commit
 commit:
-	git add ./src
-	git commit -S -m "zsh: update to zsh-users/zsh@$$(git -C ./zsh rev-parse --verify HEAD)"
-	git push origin master
+	git add ./src && git commit -S -m "zsh: update to zsh-users/zsh@$$(git -C ./zsh rev-parse --verify HEAD)" && git push origin master || true
 
 
 .PHONY: clean
