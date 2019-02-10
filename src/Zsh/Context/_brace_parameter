@@ -119,6 +119,7 @@ if [[ $PREFIX = *'${('[^\)]# ]]; then
     flags+=(
       "q:quote with single quotes"
       "-:quote minimally for readability"
+      "+:quote like q-, plus \$'...' for unprintable characters"
     )
     ;;
 
@@ -140,7 +141,7 @@ if [[ $PREFIX = *'${('[^\)]# ]]; then
   fi
   flags+=(
     "#:evaluate as numeric expression"
-    "@:double-quoted splitting of scalars"
+    "@:prevent double-quoted joining of arrays"
     "A:assign as an array parameter"
     "a:sort in array index order (with O to reverse)"
     "b:backslash quote pattern characters only"
