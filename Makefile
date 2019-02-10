@@ -1,12 +1,12 @@
 .DEFAULT_GOAL = all
 
-all: zsh src commit clean.zsh
+all: zsh src commit clean/zsh
 
 
-zsh: clean.zsh
+zsh: clean/zsh
 	git clone --depth 1 --branch master --single-branch https://git.code.sf.net/p/zsh/code zsh
 
-src: clean.src
+src: clean/src
 	cp -rH zsh/Completion ./src
 
 
@@ -16,12 +16,12 @@ commit:
 
 
 .PHONY: clean
-clean: clean.src clean.zsh
+clean: clean/src clean/zsh
 
-.PHONY: clean.src
-clean.src:
+.PHONY: clean/src
+clean/src:
 	@rm -rf ./src
 
-.PHONY: clean.zsh
-clean.zsh:
+.PHONY: clean/zsh
+clean/zsh:
 	@rm -rf ./zsh
