@@ -16,3 +16,5 @@ _arguments -s \
     '(-d --directory)'{-d,--directory}'[path to ACPI info (/proc/acpi)]:directory:_files -/' \
     '(-h --help)'{-h,--help}'[display this help and exit]' \
     '(-v --version)'{-v,--version}'[output version information and exit]'
+
+# vim:ft=zsh:et:sts=2:sw=2

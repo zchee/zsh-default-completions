@@ -7,3 +7,5 @@ _wanted target expl 'target platform' \
    compadd alpha-linux arm-linux hppa-linux i{3..6}86-linux ia32-linux ia64-linux m68k-linux \
            mipsel-linux mips-linux ppc-linux powerpc-linux sparc-linux s390-linux
 
+
+# vim:ft=zsh:et:sts=2:sw=2

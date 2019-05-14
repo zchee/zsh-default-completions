@@ -87,3 +87,5 @@ while true; do
     return
   fi
 done
+
+# vim:ft=zsh:et:sts=2:sw=2

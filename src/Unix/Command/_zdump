@@ -4,3 +4,5 @@ _arguments \
   '-v[lowest possible]' \
   '-c[cutoff]:cutoff year:' \
   '*:time zone:_time_zone'
+
+# vim:ft=zsh:et:sts=2:sw=2

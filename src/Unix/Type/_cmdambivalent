@@ -15,3 +15,5 @@ elif (( CURRENT == 1 )); then
 else
   _normal
 fi
+
+# vim:ft=zsh:et:sts=2:sw=2

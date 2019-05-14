@@ -21,3 +21,5 @@ _arguments -s -S -A '-*' : \
   '(-w)-W+[specify query timeout]:query timeout (seconds) [5 (UDP), 10 (TCP)]' \
   '1: :_hosts' \
   '2::DNS server:_hosts'
+
+# vim:ft=zsh:et:sts=2:sw=2

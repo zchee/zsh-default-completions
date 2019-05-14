@@ -48,3 +48,5 @@ fi
 (( $+opts[-h] )) && tmp+=( localhost )
 
 _wanted bind-addresses expl 'bind address' compadd -a "$@" - tmp
+
+# vim:ft=zsh:et:sts=2:sw=2

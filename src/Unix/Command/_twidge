@@ -75,3 +75,5 @@ function _twidge {
 }
 
 _twidge "$@"
+
+# vim:ft=zsh:et:sts=2:sw=2

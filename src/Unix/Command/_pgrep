@@ -175,3 +175,5 @@ case $state in
 esac && ret=0
 
 return ret
+
+# vim:ft=zsh:et:sts=2:sw=2

@@ -89,3 +89,5 @@ _help_sort_tags() {
 }
 
 _complete_help "$@"
+
+# vim:ft=zsh:et:sts=2:sw=2

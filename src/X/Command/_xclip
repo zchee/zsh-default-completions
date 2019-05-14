@@ -16,3 +16,5 @@ _arguments \
   "(-silent -verbose)-quiet[run in foreground, show what's happening]" \
   '(-silent -quiet)-verbose[running commentary]' \
   '(-o -out)*:input file:_files'
+
+# vim:ft=zsh:et:sts=2:sw=2

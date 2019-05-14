@@ -7,3 +7,5 @@ zstyle -t ":completion:${curcontext}:functions" prefix-needed && \
  ffilt='[(I)[^_.]*]'
 
 _wanted functions expl 'shell function' compadd -k "$@" - "functions$ffilt"
+
+# vim:ft=zsh:et:sts=2:sw=2

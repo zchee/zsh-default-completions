@@ -10,3 +10,5 @@ _arguments -s -S \
   '(-)--usage[display brief usage message]' \
   '(-)--version[display version information]' \
   '(-)--license[display licensing information]'
+
+# vim:ft=zsh:et:sts=2:sw=2

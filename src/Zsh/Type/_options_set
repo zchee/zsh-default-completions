@@ -8,3 +8,5 @@ local expl
 
 _wanted zsh-options expl 'set zsh option' \
     compadd "$@" -M 'B:[nN][oO]= M:_= M:{A-Z}={a-z}' -a - _options_set
+
+# vim:ft=zsh:et:sts=2:sw=2

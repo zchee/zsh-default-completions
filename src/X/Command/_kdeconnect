@@ -31,3 +31,5 @@ _arguments \
   '(-)--author[show author information and exit]' \
   '(-)--license[show license information and exit]' \
   '--desktopfile[specify base file name of the desktop entry for this application]:file'
+
+# vim:ft=zsh:et:sts=2:sw=2

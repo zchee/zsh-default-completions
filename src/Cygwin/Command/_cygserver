@@ -19,3 +19,5 @@ _arguments -s -S \
   '(--shutdown -S)'{-S,--shutdown}'[shutdown the daemon]' \
   '(--help -h)'{-h,--help}'[output usage information and exit]' \
   '(--version -v)'{-v,--version}'[output version information and exit]'
+
+# vim:ft=zsh:et:sts=2:sw=2

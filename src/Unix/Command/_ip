@@ -574,3 +574,5 @@ args+=("$reply[@]")
 _regex_arguments _ip "${args[@]}"
 
 _ip "$@"
+
+# vim:ft=zsh:et:sts=2:sw=2

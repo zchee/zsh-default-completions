@@ -17,3 +17,5 @@ _arguments -s -S : \
   '(-r --regex)'{-r,--regex}'[treat separator as regular expression (with -s)]' \
   '(-s --separator)'{-s+,--separator=}'[use specified separator instead of newline]:separator' \
   '*: :_files'
+
+# vim:ft=zsh:et:sts=2:sw=2

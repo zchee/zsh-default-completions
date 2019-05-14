@@ -12,3 +12,5 @@ elif [[ $CURRENT -gt 2 && $words[1] = -n ]]; then
 fi
 
 _normal
+
+# vim:ft=zsh:et:sts=2:sw=2

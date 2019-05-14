@@ -116,3 +116,5 @@ else
 
   return ret
 fi
+
+# vim:ft=zsh:et:sts=2:sw=2

@@ -129,3 +129,5 @@ _vserver_cache_cmds() {
 }
 
 _vserver "$@"
+
+# vim:ft=zsh:et:sts=2:sw=2

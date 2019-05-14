@@ -88,3 +88,5 @@ _x_arguments "$args[@]" \
   '*-normalize' \
   '*-rotate[rotate image clockwise]:degrees of rotation:(90 180 270)' \
   "*:picture file:_files -W ipath -g '*(#i)(${(j:|:)extension})(|${(j:|:)filter})(-.)'"
+
+# vim:ft=zsh:et:sts=2:sw=2

@@ -111,3 +111,5 @@ case $service in
       {-N,--notify}'[list only notifies]'
   ;;
 esac
+
+# vim:ft=zsh:et:sts=2:sw=2

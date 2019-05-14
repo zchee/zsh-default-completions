@@ -18,3 +18,5 @@ _arguments \
   '(-C --callback)'{-C,--callback=}':command to execute:_command_names' \
   '(-v --verbose)'{-v,--verbose=}'[print information about pressed keys]'
 
+
+# vim:ft=zsh:et:sts=2:sw=2

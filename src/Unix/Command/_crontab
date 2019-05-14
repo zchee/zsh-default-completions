@@ -66,3 +66,5 @@ args+=(
 [[ $OSTYPE == linux* ]] || aopts=( -A '-*' )
 
 _arguments -s -S $aopts : $args
+
+# vim:ft=zsh:et:sts=2:sw=2

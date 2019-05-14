@@ -35,3 +35,5 @@ _absolute_command_paths() {
 
 
 _absolute_command_paths "$@"
+
+# vim:ft=zsh:et:sts=2:sw=2

@@ -585,3 +585,5 @@ if (( $# )) && comparguments -i "$autod" "$singopt[@]" "$@"; then
 else
   return 1
 fi
+
+# vim:ft=zsh:et:sts=2:sw=2

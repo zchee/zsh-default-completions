@@ -16,3 +16,5 @@ _arguments -s -S -A '-*' \
   '(-w)-W[like -w, but turn wildcards in replacement patterns into references]' \
   '1:source pattern:_files' \
   '2:destination pattern:_files'
+
+# vim:ft=zsh:et:sts=2:sw=2

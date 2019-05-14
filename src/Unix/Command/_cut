@@ -56,3 +56,5 @@ else
     "-s[${_cut_args[only-delimited]}]" \
     '*:file:_files'
 fi
+
+# vim:ft=zsh:et:sts=2:sw=2

@@ -12,3 +12,5 @@ _arguments -s -S : \
   '-v[operate verbosely]' \
   '-n[return before the partitions are created]' '!(-n)-s' \
   '1: : _files'
+
+# vim:ft=zsh:et:sts=2:sw=2

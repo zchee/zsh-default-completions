@@ -485,3 +485,5 @@ _moosic_cmd_die() {
 }
 
 _moosic "$@"
+
+# vim:ft=zsh:et:sts=2:sw=2

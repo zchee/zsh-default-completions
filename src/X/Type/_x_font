@@ -14,3 +14,5 @@ fi
 
 _wanted fonts expl font \
     compadd -M 'r:|-=* r:|=*' "$@" -a - _font_cache
+
+# vim:ft=zsh:et:sts=2:sw=2

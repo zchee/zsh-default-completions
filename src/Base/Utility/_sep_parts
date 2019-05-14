@@ -22,8 +22,8 @@ local matchflags opt group expl nm=$compstate[nmatches] opre osuf opts matcher
 
 # Get the options.
 
-zparseopts -D -a opts \
-    'J+:=group' 'V+:=group' P: F: S: r: R: q 1 2 n 'X+:=expl' 'M+:=matcher'
+zparseopts -D -a opts 'J+:=group' 'V+:=group' P: F: S: r: R: q 1 2 o+: n \
+    'x+:=expl' 'X+:=expl' 'M+:=matcher'
 
 # Get the string from the line.
 
@@ -144,3 +144,5 @@ done
 # This sets the return value to indicate that we added matches (or not).
 
 [[ nm -ne compstate[nmatches] ]]
+
+# vim:ft=zsh:et:sts=2:sw=2

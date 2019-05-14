@@ -334,3 +334,5 @@ _rpms_caching_policy () {
 }
 
 _rpm "$@"
+
+# vim:ft=zsh:et:sts=2:sw=2

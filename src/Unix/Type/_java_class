@@ -23,3 +23,5 @@ done
 
 _wanted classes expl 'java class' compadd "$@" -M 'r:|.=* r:|=*' -a - c
 
+
+# vim:ft=zsh:et:sts=2:sw=2

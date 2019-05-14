@@ -147,3 +147,5 @@ _arguments \
 	"($cmds -s --sorted  -q --quiet)"{-s,--sorted}'[sorted output]' \
 	"($cmds -n --name -q --quiet)"{-n,--name}"[name output only; suppresses showing of set information]" \
 	"$args[@]"
+
+# vim:ft=zsh:et:sts=2:sw=2

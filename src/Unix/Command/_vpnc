@@ -52,3 +52,5 @@ _arguments \
   '--password-helper=[specify password helper executable]: : _command_names -e' \
   '--print-config[print configuration in form that can be used as vpnc.conf]' \
   '*:configuration [default]:compadd - /etc/vpnc/*.conf(N:t:r)'
+
+# vim:ft=zsh:et:sts=2:sw=2

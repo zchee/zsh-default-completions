@@ -8,3 +8,5 @@ _arguments \
   '(-u --unknown-is-real)'{-u,--unknown-is-real}'[use real ownership of previously unknown files]' \
   '(-):command name:_command_names -e'  \
   '*::arguments:_normal'
+
+# vim:ft=zsh:et:sts=2:sw=2

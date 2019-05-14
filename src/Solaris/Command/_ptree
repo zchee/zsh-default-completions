@@ -5,3 +5,5 @@ _arguments -s \
   '-c[show contract memberships]' \
   '-z[show processes in zone]:zone:_zones' \
   '*: : _alternative "users:logged-in user:_users_on" "pids:pid:_pids"'
+
+# vim:ft=zsh:et:sts=2:sw=2

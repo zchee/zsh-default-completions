@@ -4,3 +4,5 @@ local expl
 
 _description files expl 'PDF and Xournal files'
 _files "$@" "$expl[@]" -g '*.(#i){xoj,pdf}(-.)'
+
+# vim:ft=zsh:et:sts=2:sw=2

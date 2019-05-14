@@ -41,3 +41,5 @@ dirs=( ${(D)dirs:#$PWD} )
 compstate[pattern_match]='*'
 _wanted directories expl 'current directory from other shell' \
     compadd -M "r:|/=* r:|=*" -f -a dirs
+
+# vim:ft=zsh:et:sts=2:sw=2

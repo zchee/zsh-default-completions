@@ -543,3 +543,5 @@ _zfs() {
 }
 
 _zfs "$@"
+
+# vim:ft=zsh:et:sts=2:sw=2

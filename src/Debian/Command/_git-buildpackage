@@ -41,3 +41,5 @@ _arguments \
   '--git-overlay[extract orig tarball when using export-dir option]' \
   '--git-no-overlay[negates --git-overlay]' \
   '*:other options:_dpkg-buildpackage'
+
+# vim:ft=zsh:et:sts=2:sw=2

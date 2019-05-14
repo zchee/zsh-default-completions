@@ -1540,3 +1540,5 @@ for f in ${(M)${(k)functions}:#_tmux-*} ; do
 done
 
 _tmux "$@"
+
+# vim:ft=zsh:et:sts=2:sw=2

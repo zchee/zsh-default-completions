@@ -209,3 +209,5 @@ _arguments \
 }
 
 _xmms2 "$@"
+
+# vim:ft=zsh:et:sts=2:sw=2

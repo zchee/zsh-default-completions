@@ -190,3 +190,5 @@ else
     _files
   fi
 fi
+
+# vim:ft=zsh:et:sts=2:sw=2

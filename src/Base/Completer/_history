@@ -63,3 +63,5 @@ while [[ $compstate[nmatches] -eq 0 && beg -lt max ]]; do
 done
 
 (( $compstate[nmatches] ))
+
+# vim:ft=zsh:et:sts=2:sw=2

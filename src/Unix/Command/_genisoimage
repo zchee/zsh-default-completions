@@ -44,3 +44,5 @@ _arguments \
   '-output-charset:charset:' \
   '-iso-level:conformance level:(1 2 3 4)' \
   '*:pathspec:_files'
+
+# vim:ft=zsh:et:sts=2:sw=2

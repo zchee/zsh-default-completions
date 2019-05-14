@@ -15,3 +15,5 @@ _arguments \
   '1:month:(1 2 3 4 5 6 7 8 9 10 11 12 jan feb mar apr may jun jul aug sep oct nov dec)' \
   '2:year:'
 
+
+# vim:ft=zsh:et:sts=2:sw=2

@@ -7,3 +7,5 @@ zparseopts -D -K -E g:=pattern
 
 _description widgets expl widget
 compadd "$@" "$expl[@]" -M 'r:|-=* r:|=*' - "${(@k)widgets[(R)${pattern[2]}]}"
+
+# vim:ft=zsh:et:sts=2:sw=2

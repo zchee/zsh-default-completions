@@ -4,3 +4,5 @@
 # but which do not otherwise require special completion handling.
 
 _arguments '*:arg: _default' --
+
+# vim:ft=zsh:et:sts=2:sw=2

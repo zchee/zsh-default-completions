@@ -17,3 +17,5 @@ _arguments -s \
   '-u[processes available to the user]:processes' \
   '-v[maximum size of virtual memory]:maximum size of virtual memory (K-bytes)' \
   '*:size of largest file allowed'
+
+# vim:ft=zsh:et:sts=2:sw=2

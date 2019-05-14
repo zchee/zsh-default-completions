@@ -15,3 +15,5 @@ if [[ -f $bookmarks ]]; then
 fi
 
 _hosts
+
+# vim:ft=zsh:et:sts=2:sw=2

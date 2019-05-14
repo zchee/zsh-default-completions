@@ -17,3 +17,5 @@ _arguments -s -S : \
   '(-x --exact)'{-x,--exact}'[do not round file sizes up to nearest block]' \
   '(-z --zero)'{-z,--zero}'[add final overwrite with zeros]' \
   '*: :_files'
+
+# vim:ft=zsh:et:sts=2:sw=2

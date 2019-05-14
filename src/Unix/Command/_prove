@@ -50,3 +50,5 @@ _arguments \
   '--rc=[custom rcfile]:file:_files' \
   '*--rules=[limit tests run (or not) in parallel]:rules' \
   '*:file or directory:_files'
+
+# vim:ft=zsh:et:sts=2:sw=2

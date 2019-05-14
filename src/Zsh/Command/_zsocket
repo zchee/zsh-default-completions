@@ -12,3 +12,5 @@ _arguments -s -w -A "-*" \
   '-a[accept an incoming connection]' \
   '-t[return if no incoming connections are pending]' \
   '1:fd:{ (( words[(I)-*a*] )) && _file_descriptors }'
+
+# vim:ft=zsh:et:sts=2:sw=2

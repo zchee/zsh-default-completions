@@ -19,3 +19,5 @@ fi
 
 # _wanted is called for us by _command_names
 _path_files "$@" -g $pat
+
+# vim:ft=zsh:et:sts=2:sw=2

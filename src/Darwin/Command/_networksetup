@@ -318,3 +318,5 @@ _networksetup() {
 }
 
 _networksetup "$@"
+
+# vim:ft=zsh:et:sts=2:sw=2

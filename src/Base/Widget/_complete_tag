@@ -60,3 +60,5 @@ elif [[ -f $c_path$c_tagsfile ]]; then
 else
   return 1
 fi
+
+# vim:ft=zsh:et:sts=2:sw=2

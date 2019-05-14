@@ -21,3 +21,5 @@ _arguments \
   '1:file:_files' \
   '2:file:_files' \
   '3:file:_files'
+
+# vim:ft=zsh:et:sts=2:sw=2

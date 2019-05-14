@@ -269,6 +269,7 @@ case $OSTYPE in
     )
     interfaces+=(
       '-c+[show specified number of updates, then exit]:count'
+      '-e[show only the number of errors on the interface]'
       '-q[only show interfaces that have seen packets]'
       '-t[show current value of the watchdog timer function]'
     )
@@ -335,3 +336,5 @@ done
 args+=( - sockets ${sock}${sockets} )
 
 _arguments -s -S $args
+
+# vim:ft=zsh:et:sts=2:sw=2

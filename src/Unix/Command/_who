@@ -62,3 +62,5 @@ case $variant in
 esac
 
 _arguments -s -S ':file:_files' $args
+
+# vim:ft=zsh:et:sts=2:sw=2

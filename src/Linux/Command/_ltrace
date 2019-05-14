@@ -33,3 +33,5 @@ _arguments -s -S $args \
   "($hlp)*-x+[modify which static functions to trace]:filter" \
   '(-):command name: _command_names -e' \
   '*::arguments:_normal'
+
+# vim:ft=zsh:et:sts=2:sw=2

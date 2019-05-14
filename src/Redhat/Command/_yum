@@ -212,7 +212,7 @@ _yum_ids() {
   # `${(@)@[...]}' selects a subrange from $@
   # `${(@)@[1,-2]}' are all except the last argument
   # `$@[$#]' is the last argument, e.g. the first suggestable ID
-  compadd "${(@)@[1,-2]:/-J/-V}" -M "B:0=" {$@[$#]..$maxid}
+  compadd "${(@)@[1,-2]}" -o numeric -M "B:0=" {$@[$#]..$maxid}
 }
 
 _yum_ranges() {
@@ -535,3 +535,5 @@ _yum_caching_policy() {
 }
 
 _yum "$@"
+
+# vim:ft=zsh:et:sts=2:sw=2

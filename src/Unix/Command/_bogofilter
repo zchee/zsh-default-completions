@@ -125,3 +125,5 @@ case $service in
 	'(--debug-flags)-x[debug flags]:debug flags:'
 	;;
 esac
+
+# vim:ft=zsh:et:sts=2:sw=2

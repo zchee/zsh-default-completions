@@ -24,3 +24,5 @@ _arguments -s \
     '(-z)-Z[disable compression]' \
     ':csup file:_files' \
     ':destination directory:_files -/'
+
+# vim:ft=zsh:et:sts=2:sw=2

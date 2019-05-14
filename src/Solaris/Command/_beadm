@@ -76,3 +76,5 @@ case $cmd in
     _message "unknown beadm subcommand: $service"
   ;;
 esac
+
+# vim:ft=zsh:et:sts=2:sw=2

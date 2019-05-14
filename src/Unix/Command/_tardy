@@ -28,3 +28,5 @@ _arguments \
   '-User_NUmber:user:_users' \
   '-VERSion' \
   '*:file:_files'
+
+# vim:ft=zsh:et:sts=2:sw=2

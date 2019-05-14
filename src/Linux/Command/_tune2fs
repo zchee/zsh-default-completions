@@ -33,3 +33,5 @@ _arguments -s -S \
   '-U+[set filesystem UUID]:UUID or special:(clear random time)' \
   '-z+[save old contents of file system block to undo file]:undo file:_files' \
   ':device:_files'
+
+# vim:ft=zsh:et:sts=2:sw=2

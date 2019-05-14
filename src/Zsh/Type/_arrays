@@ -3,3 +3,5 @@
 local expl
 
 _wanted arrays expl array _parameters "$@" -g '*array*'
+
+# vim:ft=zsh:et:sts=2:sw=2

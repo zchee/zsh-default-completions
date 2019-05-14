@@ -123,3 +123,5 @@ cmds=( $(_init_d_get_cmds) ) || return 1
     cmds=(start stop)
 
 _arguments -s -A "-*" $flags ':init.d command:_sub_commands $cmds'
+
+# vim:ft=zsh:et:sts=2:sw=2

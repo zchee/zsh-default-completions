@@ -19,3 +19,5 @@ _arguments -s -S \
   '*=outfile:parser file name:_files' \
   '*file-prefix=prefix:output file prefix' \
   '*name-prefix=prefix:prefix string'
+
+# vim:ft=zsh:et:sts=2:sw=2

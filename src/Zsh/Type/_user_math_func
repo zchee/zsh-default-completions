@@ -7,3 +7,5 @@ funcs=(${${${(f)"$(functions -M)"}##functions -M }%% *})
 
 _wanted user-math-functions expl 'user math function' \
     compadd -S '(' -q "$@" -a funcs
+
+# vim:ft=zsh:et:sts=2:sw=2

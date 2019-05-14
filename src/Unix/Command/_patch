@@ -131,3 +131,5 @@ if (( ! $+_patch_args )); then
 fi
 
 _arguments "${(@)_patch_args}" ':original file:_files' ':patch file:_files'
+
+# vim:ft=zsh:et:sts=2:sw=2

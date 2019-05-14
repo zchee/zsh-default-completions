@@ -74,3 +74,5 @@ esac
 _arguments -s -S -A "-*" $args \
   '(-b -nw)-d[remain as a foreground process]' \
   ':interface:_net_interfaces'
+
+# vim:ft=zsh:et:sts=2:sw=2

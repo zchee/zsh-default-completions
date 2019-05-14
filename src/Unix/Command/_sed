@@ -252,3 +252,5 @@ sedexpr=(
 _regex_arguments _sed_expressions "$sedexpr[@]"
 
 _arguments -s -S $aopts : "$args[@]"
+
+# vim:ft=zsh:et:sts=2:sw=2

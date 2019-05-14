@@ -52,3 +52,5 @@ _arguments -s -S \
   '(-)--version[version of tree]' \
   '(-)--help[verbose usage listing]' \
   '*:directory:_files -/'
+
+# vim:ft=zsh:et:sts=2:sw=2

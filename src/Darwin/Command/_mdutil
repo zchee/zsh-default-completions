@@ -17,3 +17,5 @@ _arguments -s -S : \
   "(-a)-V[apply to stores on specified volume]:volume:(${(j< >)${(@q-)volumes}})" \
   '-v[output verbosely]' \
   "*:volume:(${(j< >)${(@q-)volumes}})"
+
+# vim:ft=zsh:et:sts=2:sw=2

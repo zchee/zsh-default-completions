@@ -1,5 +1,7 @@
-#compdef zf_rmdir dircmp -P -value-,*path,-default-
+#compdef dircmp -P -value-,*path,-default-
 
 local expl
 
 _wanted directories expl directory _files -/ "$@" -
+
+# vim:ft=zsh:et:sts=2:sw=2

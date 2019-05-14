@@ -5,3 +5,5 @@ if _pick_variant gz='(GNU|NetBSD|Apple)' unix --license; then
 else
   _compress "$@"
 fi
+
+# vim:ft=zsh:et:sts=2:sw=2

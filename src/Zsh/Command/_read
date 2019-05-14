@@ -19,3 +19,5 @@ _arguments -s -A "-*" -S \
   '-A[first name is taken as an array]' \
   '(-q -z -p)-u+[specify file descriptor to read from]:file descriptor:_file_descriptors' \
   $pflag '1:varprompt:_vars -qS\?' '*:vars:_vars'
+
+# vim:ft=zsh:et:sts=2:sw=2

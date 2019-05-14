@@ -68,3 +68,5 @@ for 1 2 in $flag_descs; do
 done
 
 _values -O copts -s , 'file flags' $flags
+
+# vim:ft=zsh:et:sts=2:sw=2

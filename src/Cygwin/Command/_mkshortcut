@@ -18,3 +18,5 @@ _arguments -s -S \
   '(- 1)'{-v,--version}'[display version information]' \
   '(- 1)--license[display licensing information]' \
   '1:target:_files'
+
+# vim:ft=zsh:et:sts=2:sw=2

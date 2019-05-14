@@ -23,3 +23,5 @@ _arguments \
   -resetsaver \
   -detectsleep \
   -{help,version}
+
+# vim:ft=zsh:et:sts=2:sw=2

@@ -28,3 +28,5 @@ _arguments -s -S \
   '--reference[open MSDN reference for ShellExecute]' \
   '1:file: _alternative "programs:program: _command_names -e" "files:file:_files" "urls:URL:_urls"' \
   '*::program arguments: _normal'
+
+# vim:ft=zsh:et:sts=2:sw=2

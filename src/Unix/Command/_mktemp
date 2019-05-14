@@ -41,3 +41,5 @@ fi
 }
 
 _arguments -s -S : $args
+
+# vim:ft=zsh:et:sts=2:sw=2

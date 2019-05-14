@@ -22,3 +22,5 @@ _arguments \
   '--middle-button[make corner taps simulate the middle mouse button]' \
   '--right-button[make corner taps simulate the right mouse button]' \
   '(-z --zthreshold)'{-z,--zthreshold=}'::tap sensitivity:'
+
+# vim:ft=zsh:et:sts=2:sw=2

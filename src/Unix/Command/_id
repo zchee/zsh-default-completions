@@ -54,3 +54,5 @@ else
   esac
   _arguments -s $args ':user:_users'
 fi
+
+# vim:ft=zsh:et:sts=2:sw=2

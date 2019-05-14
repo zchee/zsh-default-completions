@@ -65,3 +65,5 @@ fi
 # The other mode: switch to the next set of tags.
 
 comptags "-N$prev"
+
+# vim:ft=zsh:et:sts=2:sw=2

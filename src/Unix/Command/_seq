@@ -26,3 +26,5 @@ case $variant in
 esac
 
 _arguments -s -A '-[^1-9]*' $args
+
+# vim:ft=zsh:et:sts=2:sw=2

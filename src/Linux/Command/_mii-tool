@@ -11,3 +11,5 @@ _arguments -s -S \
   '(-F --force)'{-F,--force=}'[force specified medium]:medium:(100baseT4 100baseTx-FD 100baseTx-HD 10baseT-FD 10baseT-HD 100baseTx 10baseT)' \
   '(-p --phy)'{-p,--phy=}'[set PHY (MII address) to report]:MII address' \
   '*:interface:_net_interfaces'
+
+# vim:ft=zsh:et:sts=2:sw=2

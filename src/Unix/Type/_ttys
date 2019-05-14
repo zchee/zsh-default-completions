@@ -23,3 +23,5 @@ fi
 
 [[ -n $optdev ]] && compadd "$@" "$expl[@]" -M 'r:|/=* r:|=*' -a ttys && return
 compadd "$@" "$expl[@]" "$pre[@]" -M 'r:|/=* r:|=*' -a ttys
+
+# vim:ft=zsh:et:sts=2:sw=2

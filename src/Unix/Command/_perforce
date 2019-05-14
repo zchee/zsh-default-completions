@@ -2426,7 +2426,7 @@ _perforce_cmd_key() {
   _arguments -s : \
     '(-i -m)-d[delete key]' \
     '(-d -m)-i[increment key value by 1]' \
-    '(-d -i)-m[allow mulitple operations]' \
+    '(-d -i)-m[allow multiple operations]' \
     $keyargs
 }
 
@@ -3160,3 +3160,5 @@ _perforce_cmd_workspaces() {
 
 
 _perforce "$@"
+
+# vim:ft=zsh:et:sts=2:sw=2

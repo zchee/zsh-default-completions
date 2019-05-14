@@ -27,3 +27,5 @@ else
 fi
 
 _directories "$suf[@]" -r "${sep}"' /\t\t\-' "$@"
+
+# vim:ft=zsh:et:sts=2:sw=2

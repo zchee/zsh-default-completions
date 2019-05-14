@@ -8,3 +8,5 @@ case $service in
 	'(1)-x+[specify spaces to use for indentation in function expansion]:spaces' \
 	'(1)-f[edit function]';;
 esac
+
+# vim:ft=zsh:et:sts=2:sw=2

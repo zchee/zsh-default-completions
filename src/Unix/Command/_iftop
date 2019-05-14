@@ -25,3 +25,5 @@ _arguments \
   '-f+[filter]:BPF filter' \
   '-F+[net/mask]:network/mask' \
   '-c+[config file]:config file:_files'
+
+# vim:ft=zsh:et:sts=2:sw=2

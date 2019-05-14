@@ -22,3 +22,5 @@ else
   file=(${(q)file})
 fi
 (( $#file )) && compadd -U -i "$IPREFIX" -I "$ISUFFIX" -f -Q -- $file
+
+# vim:ft=zsh:et:sts=2:sw=2

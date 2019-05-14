@@ -242,3 +242,5 @@ if [[ -z $pids ]]; then
   _pids && ret=0
 fi
 return ret
+
+# vim:ft=zsh:et:sts=2:sw=2

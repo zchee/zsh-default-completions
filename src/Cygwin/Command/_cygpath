@@ -26,3 +26,5 @@ _arguments -s -S \
   '(- *)'{-h,--help}'[display usage information]' \
   '(- *)'{-v,--version}'[display version information]' \
   '*: :_files'
+
+# vim:ft=zsh:et:sts=2:sw=2

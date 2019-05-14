@@ -9,3 +9,5 @@ _arguments -s -S : \
   '-V[display version information]' \
   "-v[show file's version/generation number]" \
   '*: :_files'
+
+# vim:ft=zsh:et:sts=2:sw=2

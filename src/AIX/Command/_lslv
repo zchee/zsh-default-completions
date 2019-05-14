@@ -6,3 +6,5 @@ _arguments -C -s \
   '(-p)-m[list partition numbers]' \
   '-n[accesses information from the descriptor area of physical volume]:pv:_physical_volumes' \
   '1:lv: _logical_volumes'
+
+# vim:ft=zsh:et:sts=2:sw=2

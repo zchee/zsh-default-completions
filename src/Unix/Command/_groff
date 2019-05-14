@@ -43,3 +43,5 @@ _arguments \
 	'-Z[do not postprocess the output of troff]' \
 	"$_troff_options[@]" \
 	':file:_files'
+
+# vim:ft=zsh:et:sts=2:sw=2

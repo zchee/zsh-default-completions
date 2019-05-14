@@ -9,3 +9,5 @@ local expl
 # ### TODO: Use 'bts listcachedbugs'?
 local -a cachedirs=( ~/.devscripts_cache/bts ~/.cache/devscripts/bts )
 _wanted -x bugnum expl 'bug number' compadd -- $^cachedirs/<->.(html|mbox)(N:t:r)
+
+# vim:ft=zsh:et:sts=2:sw=2

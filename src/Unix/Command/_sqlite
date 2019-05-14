@@ -75,3 +75,5 @@ if [[ -n $words[(r)-A*] ]]; then
 fi
 
 _arguments $options
+
+# vim:ft=zsh:et:sts=2:sw=2

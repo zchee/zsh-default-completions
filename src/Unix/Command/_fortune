@@ -13,3 +13,5 @@ _arguments \
   '-i[ignore case for -m patterns]' \
   '-w[wait before termination for a time based on msg length]' \
   '*:databases'
+
+# vim:ft=zsh:et:sts=2:sw=2

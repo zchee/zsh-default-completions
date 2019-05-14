@@ -447,3 +447,5 @@ _man_pages() {
 }
 
 _man "$@"
+
+# vim:ft=zsh:et:sts=2:sw=2

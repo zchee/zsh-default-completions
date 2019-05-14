@@ -14,3 +14,5 @@ if (( ${#list} )); then
 else
   _message delimiter
 fi
+
+# vim:ft=zsh:et:sts=2:sw=2

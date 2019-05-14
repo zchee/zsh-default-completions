@@ -21,6 +21,8 @@ defs=(
 
 if [[ "$1" = -e ]]; then
   shift
+elif (( ${#precommands:|builtin_precommands} )); then
+  # precommand excludes internal options below
 else
   [[ "$1" = - ]] && shift
 
@@ -47,3 +49,5 @@ then
   path=( $cmdpath )
 fi
 _alternative -O args "$defs[@]"
+
+# vim:ft=zsh:et:sts=2:sw=2

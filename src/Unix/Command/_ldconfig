@@ -62,7 +62,7 @@ case $OSTYPE in
     );|
   openbsd*)
     args+=(
-      '(-m)-U[unconfigure specified directories or inaccessable directories if none specified]'
+      '(-m)-U[unconfigure specified directories or inaccessible directories if none specified]'
     );|
 esac
 
@@ -79,3 +79,5 @@ else
 fi
 
 return ret
+
+# vim:ft=zsh:et:sts=2:sw=2

@@ -30,3 +30,5 @@ _arguments -s -S \
   '(- *)-V[print version number]' \
   '-w+[specify maximumn width of output]:maximum width [80]' \
   '*:patch file:_files'
+
+# vim:ft=zsh:et:sts=2:sw=2

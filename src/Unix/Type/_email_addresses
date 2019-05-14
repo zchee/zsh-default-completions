@@ -185,3 +185,5 @@ _email_addresses() {
 }
 
 _email_addresses "$@"
+
+# vim:ft=zsh:et:sts=2:sw=2

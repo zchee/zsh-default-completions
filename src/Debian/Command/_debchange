@@ -76,3 +76,5 @@ _arguments -S -s -A "-*" \
   --release-heuristic'[control "package has been released" heuristic]:heuristic:((changelog\:"via changelog \"UNRELEASED\" distribution (default)" log\:"ia upload logfile in parent directory"))' \
   ':text:'
   # multimaint
+
+# vim:ft=zsh:et:sts=2:sw=2

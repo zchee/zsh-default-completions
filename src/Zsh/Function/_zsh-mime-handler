@@ -17,3 +17,5 @@ words=("${(@Q)words}")
 (( CURRENT = ${#words} - end_offset ))
 
 _normal
+
+# vim:ft=zsh:et:sts=2:sw=2

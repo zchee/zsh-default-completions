@@ -39,3 +39,5 @@ if [[ -r $config ]]; then
       compadd -M 'm:{a-zA-Z}={A-Za-z} r:|.=* r:|=*' "$@" $config_hosts
   fi
 fi
+
+# vim:ft=zsh:et:sts=2:sw=2

@@ -714,7 +714,7 @@ _git-commit () {
                                                                                                   all\:"show individual files in untracked directories"))' \
     '(-q --quiet -v --verbose)'{-v,--verbose}'[show unified diff of all file changes]' \
     '(-q --quiet -v --verbose)'{-q,--quiet}'[suppress commit summary message]' \
-    '--dry-run[only show list of paths that are to be commited or not, and any untracked]' \
+    '--dry-run[only show list of paths that are to be committed or not, and any untracked]' \
     '(         --no-status)--status[include the output of git status in the commit message template]' \
     '(--status            )--no-status[do not include the output of git status in the commit message template]' \
     '(-S --gpg-sign --no-gpg-sign)'{-S-,--gpg-sign=}'[GPG-sign the commit]::key id' \
@@ -3473,7 +3473,7 @@ _git-filter-branch () {
     '--msg-filter[filter for rewriting commit messages]: :_cmdstring' \
     '--commit-filter[filter for rewriting commit]: :_cmdstring' \
     '--tag-name-filter[filter for rewriting tag names]: :_cmdstring' \
-    '--subdirectory-filter[only look at histor that touches given directory]: :_directories' \
+    '--subdirectory-filter[only look at history that touches given directory]: :_directories' \
     '--prune-empty[ignore empty generated commits]' \
     '--original[namespace where original commits will be stored]:namespace:_directories' \
     '-d[temporary directory used for rewriting]: :_directories' \
@@ -4970,7 +4970,7 @@ _git-diff-tree () {
   _arguments -C -S -s \
     $revision_options \
     '-r[recurse into subdirectories]' \
-    '(-r   )-t[disply tree objects in diff output]' \
+    '(-r   )-t[display tree objects in diff output]' \
     '--root[display root diff]' \
     '-m[do not ignore merges]' \
     '-s[do not show differences]' \
@@ -5652,7 +5652,7 @@ __git_describe_branch () {
     local __c
     local -a __commits
     for __c in ${(P)__commits_in}; do
-      __commits+=("${__c}:${$(_call_program describe git log -1 --oneline $__c)//:/\\:}")
+      __commits+=("${__c}:${$(_call_program describe git rev-list -1 --oneline $__c)//:/\\:}")
     done
     _describe -t $__tag $__desc __commits "$@"
   else
@@ -5688,7 +5688,7 @@ __git_ignore_line () {
 __git_ignore_line_inside_arguments () {
   declare -a compadd_opts
 
-  zparseopts -D -E -a compadd_opts V: J: 1 2 n f X: M: P: S: r: R: q F:
+  zparseopts -D -E -a compadd_opts V+: J+: 1 2 o+: n f x+: X+: M+: P: S: r: R: q F:
 
   __git_ignore_line $* $compadd_opts
 }
@@ -6160,7 +6160,7 @@ __git_ref_fields () {
   local match mbegin mend
   local -a cfields fields append opts all
 
-  zparseopts -D -E -a opts x: X: J: V: a=all
+  zparseopts -D -E -a opts M+: x+: X+: J+: V+: o+: 1 2 a=all
 
   if compset -P 1 '(#b)(*):'; then
     case $match[1] in
@@ -6493,8 +6493,9 @@ __git_commit_objects () {
 
   # Note: the after-the-colon part must be unique across the entire array;
   # see workers/34768
-  commits=(${(f)"$(_call_program commits git --no-pager log -1000 --all --reflog --format='%h:\[%h\]\ %s\ \(%cr\)')"})
+  commits=(${(f)"$(_call_program commits git --no-pager rev-list -1000 --all --reflog --format='%h:\[%h\]\ %s\ \(%cr\)' HEAD)"})
   __git_command_successful $pipestatus || return 1
+  commits=(${commits:#commit [[:xdigit:]](#c40,)})
 
   _describe -Vx -t commits 'commit object name' commits
 }
@@ -6503,7 +6504,7 @@ __git_commit_objects () {
 __git_recent_commits () {
   local gitdir expl start
   declare -a descr tags heads commits argument_array_names commit_opts
-  local i j k ret
+  local h i j k ret
   integer distance_from_head
   local label
   local parents
@@ -6517,10 +6518,11 @@ __git_recent_commits () {
 
   # Careful: most %d will expand to the empty string.  Quote properly!
   # NOTE: we could use %D directly, but it's not available in git 1.9.1 at least.
-  commits=("${(f)"$(_call_program commits git --no-pager log ${(q)commit_opts} -20 --format='%h%n%d%n%s\ \(%cr\)%n%p')"}")
+  commits=("${(f)"$(_call_program commits git --no-pager rev-list ${(q)commit_opts} -20 --format='%h%n%d%n%s\ \(%cr\)%n%p' HEAD)"}")
   __git_command_successful $pipestatus || return 1
 
-  for i j k parents in "$commits[@]" ; do
+  # h => hard-coded 'commit abcdef1234567890...' -- just discarded
+  for h i j k parents in "$commits[@]" ; do
     # Note: the after-the-colon part must be unique across the entire array;
     # see workers/34768
     if (( $#commit_opts )); then
@@ -6729,7 +6731,7 @@ __git_tags_of_type () {
   tags=(${${(M)${(f)"$(_call_program ${(q)type}-tag-refs "git for-each-ref --format='%(*objecttype)%(objecttype) %(refname)' refs/tags 2>/dev/null")"}:#$type(tag|) *}#$type(tag|) refs/tags/})
   __git_command_successful $pipestatus || return 1
 
-  _wanted $type-tags expl "$type tag" compadd -M 'r:|/=* r:|=*' "$@" -a - tags
+  _wanted $type-tags expl "$type tag" compadd -M 'r:|/=* r:|=*' "$@" -o numeric -a - tags
 }
 
 # Reference Argument Types
@@ -6824,7 +6826,7 @@ __git_files_relative () {
 __git_files () {
   local compadd_opts opts tag description gitcdup gitprefix files expl
 
-  zparseopts -D -E -a compadd_opts V: J: 1 2 n f X: M: P: S: r: R: q F:
+  zparseopts -D -E -a compadd_opts V+: J+: 1 2 o+: n f x+: X+: M+: P: S: r: R: q F:
   zparseopts -D -E -a opts -- -cached -deleted -modified -others -ignored -unmerged -killed x+: --exclude+:
   tag=$1 description=$2; shift 2
 
@@ -6955,7 +6957,7 @@ __git_tree_files () {
     shift
   fi
 
-  zparseopts -D -E -a compadd_opts V: J: 1 2 n f X: M: P: S: r: R: q F:
+  zparseopts -D -E -a compadd_opts V+: J+: 1 2 o+: n f x+: X+: M+: P: S: r: R: q F:
 
   [[ "$1" == */ ]] && Path="$1" || Path="${1:h}/"
   shift
@@ -7035,7 +7037,7 @@ __git_any_repositories_or_references () {
 __git_guard () {
   declare -A opts
 
-  zparseopts -K -D -A opts M: J: V: 1 2 n F: X:
+  zparseopts -K -D -A opts M+: J+: V+: 1 2 o+: n F: x+: X+:
 
   [[ "$PREFIX$SUFFIX" != $~1 ]] && return 1
 
@@ -7073,7 +7075,7 @@ __git_guard_diff-stat-width () {
 __git_guard_number () {
   declare -A opts
 
-  zparseopts -K -D -A opts M: J: V: 1 2 n F: X:
+  zparseopts -K -D -A opts M+: J+: V+: 1 2 o+: n F: x+: X+:
 
   _guard '[[:digit:]]#' ${1:-number}
 }
@@ -7907,3 +7909,5 @@ for file in ${^fpath}/_git-*~(*~|*.zwc)(-.N); do
 done
 
 _git
+
+# vim:ft=zsh:et:sts=2:sw=2

@@ -22,3 +22,5 @@ if [[ -n "$state" ]]; then
     _wanted -x alias expl 'alias definition' _aliases -qS "$suf" "$type[@]"
   fi
 fi
+
+# vim:ft=zsh:et:sts=2:sw=2

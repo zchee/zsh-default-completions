@@ -50,3 +50,5 @@ for (( i = 1; i <= $#; i++ )); do
   reply+=(\|)
 done
 reply+=( /'[]'/ "${matches}${end}" \) )
+
+# vim:ft=zsh:et:sts=2:sw=2
