@@ -18,5 +18,3 @@ _arguments \
   '(-d)-D[force checking of build dependencies]' \
   '--check-dirname-level[specify how much to check directory names]:level [1]:((0\:never 1\:only\ if\ program\ changes\ directory 2\:always))' \
   '--check-dirname-regex[specify what constitutes a matching directory name]:perl regex [PACKAGE(-.*)?]'
-
-# vim:ft=zsh:et:sts=2:sw=2

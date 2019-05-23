@@ -30,5 +30,3 @@ fi
 local expl
 
 _wanted pods expl 'perl base pod' compadd -a "$@" - _perl_basepods
-
-# vim:ft=zsh:et:sts=2:sw=2

@@ -195,5 +195,3 @@ function _feh_background {
 }
 
 _arguments -s ${arguments}
-
-# vim:ft=zsh:et:sts=2:sw=2

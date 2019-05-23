@@ -99,5 +99,3 @@ _setxkbmap_variant () {
 }
 
 _setxkbmap "$@"
-
-# vim:ft=zsh:et:sts=2:sw=2

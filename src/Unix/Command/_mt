@@ -78,5 +78,3 @@ _arguments -C "$args[@]" '(--help --version -V)1:operation:->operation' \
 [[ -n "$state" ]] && _describe -t operations 'operation' cmds && ret=0
 
 return ret
-
-# vim:ft=zsh:et:sts=2:sw=2

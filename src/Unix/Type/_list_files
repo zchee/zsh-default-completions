@@ -67,5 +67,3 @@ done
 (( ${#listfiles} )) && listopts=(-d listfiles -l -o match)
 
 return 0
-
-# vim:ft=zsh:et:sts=2:sw=2

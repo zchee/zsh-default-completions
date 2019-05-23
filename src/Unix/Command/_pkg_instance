@@ -18,5 +18,3 @@ case ${opts%:*} in
 	compadd "$@" - ${opt_args[$whicharg]:-/var/spool/pkg}/*/pkgmap(:h:t)
 	;;
 esac
-
-# vim:ft=zsh:et:sts=2:sw=2

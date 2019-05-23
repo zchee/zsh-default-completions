@@ -7,5 +7,3 @@ _arguments \
   '(-t --two-lines)'{-t,--two-lines}'[show only primary/secondary across two lines]' \
   '(-h --help)'{-h,--help}'[show help]' \
   ':group:_groups'
-
-# vim:ft=zsh:et:sts=2:sw=2

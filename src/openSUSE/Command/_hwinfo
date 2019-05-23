@@ -77,5 +77,3 @@ _arguments \
 #   Note: debug info is shown only in the log file. (If you specify a
 #   log file the debug level is implicitly set to a reasonable value.)
 
-
-# vim:ft=zsh:et:sts=2:sw=2

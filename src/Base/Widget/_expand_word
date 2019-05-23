@@ -11,5 +11,3 @@ else
 fi
 
 _main_complete _expand
-
-# vim:ft=zsh:et:sts=2:sw=2

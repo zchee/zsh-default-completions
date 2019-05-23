@@ -13,5 +13,3 @@ _arguments -s \
   "--no-sysfs[don't attempt to read DMI data from sysfs files]" \
   '--oem-string=[only display the value of the specified OEM string]:OEM string number' \
   '(-)'{-V,--version}'[display version information]'
-
-# vim:ft=zsh:et:sts=2:sw=2

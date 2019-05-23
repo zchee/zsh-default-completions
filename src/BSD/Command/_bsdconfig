@@ -61,5 +61,3 @@ _arguments -s -w -A '-*' : \
   '-S[secure X11 mode]' \
   '-X[use Xdialog(1)]' \
   '1:bsdconfig(8) menu:(( $shortcuts ))'
-
-# vim:ft=zsh:et:sts=2:sw=2

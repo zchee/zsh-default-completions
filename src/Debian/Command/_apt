@@ -707,5 +707,3 @@ _apt-mark () {
 }
 
 _apt "$@"
-
-# vim:ft=zsh:et:sts=2:sw=2

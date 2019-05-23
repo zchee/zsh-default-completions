@@ -8,5 +8,3 @@ if zstyle -a ":completion:${curcontext}:users" users users; then
 fi
 
 _wanted users expl user compadd "$@" -k - userdirs
-
-# vim:ft=zsh:et:sts=2:sw=2

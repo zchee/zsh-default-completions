@@ -61,5 +61,3 @@ case "$service" in
 	      replay pause resume stop reload save history help
   ;;
 esac
-
-# vim:ft=zsh:et:sts=2:sw=2

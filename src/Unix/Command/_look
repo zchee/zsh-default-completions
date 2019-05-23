@@ -32,5 +32,3 @@ _arguments -C -s -S $args \
     compadd - $(_call_program words $words[1] '"$PREFIX"') && return
 
 return ret
-
-# vim:ft=zsh:et:sts=2:sw=2

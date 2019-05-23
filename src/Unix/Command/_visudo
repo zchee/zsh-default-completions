@@ -10,5 +10,3 @@ _arguments -s -S : \
   '(x -s --strict)'{-s,--strict}'[enable strict checking]' \
   + '(x)' \
   '(c)'{-x+,--export=}'[export sudoers file to specified JSON output file]:JSON output file:_files'
-
-# vim:ft=zsh:et:sts=2:sw=2

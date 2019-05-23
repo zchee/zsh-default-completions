@@ -41,5 +41,3 @@ _arguments -s -S \
   '(-w --retry-delay)'{-w+,--retry-delay=}'[wait successive retries]:delay (seconds)' \
   '!(*)-h+:host:_hosts' '!(*)-f+:file:_files' '!(*)-c+:remote directory:_directories' \
   '*:URL to fetch:_urls'
-
-# vim:ft=zsh:et:sts=2:sw=2

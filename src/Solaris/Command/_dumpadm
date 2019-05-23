@@ -20,5 +20,3 @@ _arguments -s \
   '-s[set the savecore directory]:directory:_files -/' \
   '-r[alternate root directory]:directory:_files -/' \
   '-z[enable saving core files in a compressed format]:compression:(on off)'
-
-# vim:ft=zsh:et:sts=2:sw=2

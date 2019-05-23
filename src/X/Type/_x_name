@@ -7,5 +7,3 @@ if (( x )); then
 else
   _message -e names 'name'
 fi
-
-# vim:ft=zsh:et:sts=2:sw=2

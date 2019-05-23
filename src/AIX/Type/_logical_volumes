@@ -13,5 +13,3 @@ else
 fi
 _wanted logicalvolumes expl 'logical volume' \
     compadd "$disp[@]" "$@" - "$names[@]"
-
-# vim:ft=zsh:et:sts=2:sw=2

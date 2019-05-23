@@ -45,5 +45,3 @@ _arguments -s \
   '-Y[ignore older files by ctime after file name mods]' \
   '-Z[ignore older files after file name mods]' \
   '*: :_files'
-
-# vim:ft=zsh:et:sts=2:sw=2

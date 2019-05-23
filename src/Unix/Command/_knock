@@ -7,5 +7,3 @@ _arguments \
 	'(-h --help -u --udp -v --verbose -V --version)'{-h,--help}'[help]' \
 	'1:host:_hosts' \
 	'*:port:_ports'
-
-# vim:ft=zsh:et:sts=2:sw=2

@@ -22,5 +22,3 @@ _arguments \
   "--win-client-ident[set the client identifier to match window's]" \
   '--usage[display brief usage message]' \
   ':interface:_net_interfaces'
-
-# vim:ft=zsh:et:sts=2:sw=2

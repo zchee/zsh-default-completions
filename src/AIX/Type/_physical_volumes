@@ -4,5 +4,3 @@ local expl
 
 _wanted physicalvolumes expl 'physical volume' \
     compadd "$@" - $(lsdev -C -c disk -S a -F name)
-
-# vim:ft=zsh:et:sts=2:sw=2

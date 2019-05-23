@@ -38,5 +38,3 @@ _arguments \
   '(-d --data)'{-d+,--data=}'[specify DATA payload]:filename (or string with tokens):_files' \
   '*'{-ah,--add-header=}'[add headers]:<Header>\: Value' \
   '*'{-h,--header=}'[replace headers]:<Header>\: Value'
-
-# vim:ft=zsh:et:sts=2:sw=2

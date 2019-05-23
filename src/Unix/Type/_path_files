@@ -893,5 +893,3 @@ if [[ _matcher_num -eq ${#_matchers} ]] &&
 fi
 
 [[ nm -ne compstate[nmatches] ]]
-
-# vim:ft=zsh:et:sts=2:sw=2

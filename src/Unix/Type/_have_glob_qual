@@ -22,5 +22,3 @@ local complete
      $_comp_caller_options[extendedglob] == on &&
        $1 = (#b)(((*[^\\\$]|)(\\\\)#)"(#q")([^\)]#)$complete
     ) ]]
-
-# vim:ft=zsh:et:sts=2:sw=2

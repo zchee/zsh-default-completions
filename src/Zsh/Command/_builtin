@@ -9,5 +9,3 @@ else
 
   _wanted commands expl 'builtin command' compadd "$@" -k builtins
 fi
-
-# vim:ft=zsh:et:sts=2:sw=2

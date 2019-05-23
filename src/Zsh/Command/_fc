@@ -89,5 +89,3 @@ if [[ -n $state ]]; then
 fi && ret=0
 
 return ret
-
-# vim:ft=zsh:et:sts=2:sw=2

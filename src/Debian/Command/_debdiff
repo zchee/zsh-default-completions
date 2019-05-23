@@ -20,5 +20,3 @@ _arguments \
   '--from: :_deb_files' \
   '--to: :_deb_files' \
   '*:file to compare:_deb_files -c'
-
-# vim:ft=zsh:et:sts=2:sw=2

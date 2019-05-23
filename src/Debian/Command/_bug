@@ -107,5 +107,3 @@ case "$service" in
     # TODO: could call _debbugs_bugnumber here.
   ;;
 esac
-
-# vim:ft=zsh:et:sts=2:sw=2

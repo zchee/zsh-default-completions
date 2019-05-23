@@ -5,5 +5,3 @@ _arguments -s -S \
   '(--desktop -D)'{-D,--desktop}'[creates a Desktop icon for running /zsh.bat]' \
   '(--smprograms -P)'{-P,--smprograms}'[creates a Program menu item for running /zsh.bat]' \
   '(--help -h)'{-h,--help}'[display help information]'
-
-# vim:ft=zsh:et:sts=2:sw=2

@@ -7,5 +7,3 @@ _arguments -s -S \
   '-m+[set maximum hops]:maximum [30]' \
   '-p+[set initial destination port to use]:port:_ports' \
   ':destination:_hosts'
-
-# vim:ft=zsh:et:sts=2:sw=2

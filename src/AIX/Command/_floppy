@@ -3,5 +3,3 @@
 local expl
 
 _wanted floppyfiles expl 'file on floppy' compadd - ${$(dosdir)[1,-5]:l}
-
-# vim:ft=zsh:et:sts=2:sw=2

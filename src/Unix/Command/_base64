@@ -57,5 +57,3 @@ esac
 
 # A few other implementations exist, though they are rarely encountered
 _default
-
-# vim:ft=zsh:et:sts=2:sw=2

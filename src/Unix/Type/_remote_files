@@ -92,5 +92,3 @@ if zstyle -T ":completion:${curcontext}:files" remote-access; then
 else
     _message -e remote-files 'remote file'
 fi
-
-# vim:ft=zsh:et:sts=2:sw=2

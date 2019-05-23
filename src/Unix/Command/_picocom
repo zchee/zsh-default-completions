@@ -53,5 +53,3 @@ function _picocom () {
 }
 
 _picocom "$@"
-
-# vim:ft=zsh:et:sts=2:sw=2

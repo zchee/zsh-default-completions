@@ -11,5 +11,3 @@ _arguments -S -s \
     '(- *)'{-V,--version}'[print program version]' \
     '*:directory:_files -/' \
     && return 0
-
-# vim:ft=zsh:et:sts=2:sw=2

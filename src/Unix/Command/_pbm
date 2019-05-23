@@ -889,5 +889,3 @@ zeisstopnm)
   _wanted files expl 'picture file' _path_files -g "$pat" ||
       _files "$expl[@]" -g '*.(#i)p[bgp]m(-.)'
 esac
-
-# vim:ft=zsh:et:sts=2:sw=2

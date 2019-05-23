@@ -34,5 +34,3 @@ _arguments -s \
   '(-)'{-\?,--help}'[display help information]' \
   '(-)--usage[display usage]'
 
-
-# vim:ft=zsh:et:sts=2:sw=2

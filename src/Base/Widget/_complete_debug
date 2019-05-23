@@ -34,5 +34,3 @@ integer debug_fd=-1
   (( debug_fd != -1 )) && exec 2>&$debug_fd {debug_fd}>&-
 }
 return ret
-
-# vim:ft=zsh:et:sts=2:sw=2

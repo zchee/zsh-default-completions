@@ -10,5 +10,3 @@ _arguments -s -S : \
   '(:)-w[wait for specified PID]: :_pids' \
   '(-)1: : _command_names -e' \
   '(-)*::command argument'
-
-# vim:ft=zsh:et:sts=2:sw=2

@@ -28,5 +28,3 @@ done
 (( CURRENT > 2 )) && args+=( '*::command:_normal' )
 
 _arguments -s -S $args
-
-# vim:ft=zsh:et:sts=2:sw=2

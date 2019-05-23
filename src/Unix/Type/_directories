@@ -3,5 +3,3 @@
 local expl
 
 _wanted directories expl directory _files -/ "$@" -
-
-# vim:ft=zsh:et:sts=2:sw=2

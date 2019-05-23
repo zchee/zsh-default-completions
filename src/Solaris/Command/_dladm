@@ -732,5 +732,3 @@ _dladm() {
 }
 
 _dladm "$@"
-
-# vim:ft=zsh:et:sts=2:sw=2

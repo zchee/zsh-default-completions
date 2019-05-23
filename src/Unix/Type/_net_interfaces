@@ -7,5 +7,3 @@ _find_net_interfaces
 
 _wanted interfaces expl 'network interface' \
     compadd "$@" "$net_intf_disp[@]" - "${(@)net_intf_list%%:*}"
-
-# vim:ft=zsh:et:sts=2:sw=2

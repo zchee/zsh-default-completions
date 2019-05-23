@@ -1,5 +1,3 @@
 #compdef mere
 
 _files -g '*.[1-9]([a-z]|)(-.) *.man(-.)'
-
-# vim:ft=zsh:et:sts=2:sw=2

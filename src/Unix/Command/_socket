@@ -54,5 +54,3 @@ arg2)
 esac
 
 return ret
-
-# vim:ft=zsh:et:sts=2:sw=2

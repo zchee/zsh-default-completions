@@ -8,5 +8,3 @@ _arguments \
   '--presentation[start the document in presentation mode]' \
   '--unique[unique instance control]' \
   "*:okular document:_files -g '*.(#i)($extns)(-.)'"
-
-# vim:ft=zsh:et:sts=2:sw=2

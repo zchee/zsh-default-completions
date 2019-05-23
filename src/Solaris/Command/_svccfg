@@ -101,5 +101,3 @@ _svccfg() {
 _svccfg "$@"
 
 # vi:tw=0
-
-# vim:ft=zsh:et:sts=2:sw=2

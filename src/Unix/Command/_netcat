@@ -36,5 +36,3 @@ _arguments -s \
   "$_cache_nc_args[@]" \
   ':host:_hosts' \
   ':port:_ports'
-
-# vim:ft=zsh:et:sts=2:sw=2

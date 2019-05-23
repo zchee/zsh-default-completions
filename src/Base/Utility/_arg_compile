@@ -197,5 +197,3 @@ eval $safe[reply]'=( "${prelude[@]}" "${argspec[@]}" ${helpspec:+"-- ${helpspec[
 # print -R _arguments "${prelude[@]:q}" "${argspec[@]:q}" ${helpspec:+"-- ${helpspec[@]:q}"} "$@:q"
 
 return 0
-
-# vim:ft=zsh:et:sts=2:sw=2

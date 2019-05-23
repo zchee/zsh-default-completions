@@ -79,5 +79,3 @@ case $variant in
 esac
 
 _arguments -s $args $argf
-
-# vim:ft=zsh:et:sts=2:sw=2

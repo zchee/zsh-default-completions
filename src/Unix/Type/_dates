@@ -125,5 +125,3 @@ for ((;rows;rows--)); do
     done
   done
 done
-
-# vim:ft=zsh:et:sts=2:sw=2

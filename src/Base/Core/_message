@@ -43,5 +43,3 @@ if [[ -n "$format$raw" ]]; then
   builtin compadd "$gopt[@]" -x "$format"
   _comp_mesg=yes
 fi
-
-# vim:ft=zsh:et:sts=2:sw=2

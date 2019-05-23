@@ -3,5 +3,3 @@
 local expl
 
 _wanted arguments expl 'terminal capability' compadd -k terminfo
-
-# vim:ft=zsh:et:sts=2:sw=2

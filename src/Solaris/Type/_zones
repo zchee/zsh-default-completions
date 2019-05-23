@@ -9,5 +9,3 @@ zparseopts -D -E -a type t+:
 
 _description zones expl zone
 compadd "$@" "$expl[@]" - ${="$(_call_program zones /usr/sbin/zoneadm list $typearg)"}
-
-# vim:ft=zsh:et:sts=2:sw=2

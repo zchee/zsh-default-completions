@@ -2,5 +2,3 @@
 
 _arguments '(-u)-f[freeze terminal settings]' \
            '(-f)-u[unfreeze terminal settings]'
-
-# vim:ft=zsh:et:sts=2:sw=2

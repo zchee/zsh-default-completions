@@ -16,5 +16,3 @@ else
 fi
 
 _main_complete "$@"
-
-# vim:ft=zsh:et:sts=2:sw=2

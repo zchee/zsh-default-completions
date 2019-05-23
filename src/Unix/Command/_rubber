@@ -65,5 +65,3 @@ case "$service" in
       ':LaTeX file:_files -g "*.(tex|dtx|lhs|w)(-.)"'
   ;;
 esac
-
-# vim:ft=zsh:et:sts=2:sw=2

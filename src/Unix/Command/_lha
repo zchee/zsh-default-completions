@@ -70,5 +70,3 @@ else
 	;;
     esac
 fi
-
-# vim:ft=zsh:et:sts=2:sw=2

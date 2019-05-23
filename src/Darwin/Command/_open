@@ -81,5 +81,3 @@ _open() {
 }
 
 _open "$@"
-
-# vim:ft=zsh:et:sts=2:sw=2

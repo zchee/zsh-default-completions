@@ -20,5 +20,3 @@ _arguments -s \
   '(-d --delay -o --once)'{-o,--once}'[display the output once and exit]' \
   '(-)'{-V,--version}'[display version information and exit]' \
   '(-)'{-h,--help}'[display usage information and exit]'
-
-# vim:ft=zsh:et:sts=2:sw=2

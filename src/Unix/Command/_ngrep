@@ -31,5 +31,3 @@ _arguments -s -S \
    '(-I)-d+[use specified device instead of the pcap default]:interface:_net_interfaces' \
    '1: :_guard "^-*" pattern' \
    '*::expression:_bpf_filters'
-
-# vim:ft=zsh:et:sts=2:sw=2

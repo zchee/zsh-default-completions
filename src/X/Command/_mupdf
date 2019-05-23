@@ -51,5 +51,3 @@ _arguments -S -s -A '-*' \
   '-S+[specify font size]:font size:' \
   '-U+[specify user style sheet]:CSS file:_files' \
   ': :_files -g "*(#i).(${(j:|:)ext})(-.)"'
-
-# vim:ft=zsh:et:sts=2:sw=2

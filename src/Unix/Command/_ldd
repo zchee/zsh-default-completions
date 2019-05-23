@@ -41,5 +41,3 @@ _arguments $args \
   '*: : _alternative
     "executables:executable:_files -g \^\*.so\(\-\*\)"
       "shared-objects:shared object:_files -g \*.so\(-.\)"'
-
-# vim:ft=zsh:et:sts=2:sw=2

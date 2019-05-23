@@ -1,5 +1,3 @@
 #compdef disown fg
 
 _jobs "$@"
-
-# vim:ft=zsh:et:sts=2:sw=2

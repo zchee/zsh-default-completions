@@ -25,5 +25,3 @@ _arguments $args \
   '1:file:_files' \
   '(*)2:suffix' \
   '*:file:_files'
-
-# vim:ft=zsh:et:sts=2:sw=2

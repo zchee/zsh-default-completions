@@ -15,5 +15,3 @@ fi
 if [[ $WIDGET != *noread* ]]; then
   zle read-command && zle $REPLY -w
 fi
-
-# vim:ft=zsh:et:sts=2:sw=2

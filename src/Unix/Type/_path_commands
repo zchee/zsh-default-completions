@@ -102,5 +102,3 @@ return $ret
 }
 
 _path_commands "$@"
-
-# vim:ft=zsh:et:sts=2:sw=2

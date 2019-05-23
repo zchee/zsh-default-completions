@@ -31,5 +31,3 @@ compadd -O mfiles "$expl[@]" -a files
 [[ $#mfiles -gt 1 || ${mfiles[1]} != $PREFIX ]] &&
     compadd "$expl[@]" "$suf[@]" -a files &&
     [[ -z $compstate[exact_string] ]]
-
-# vim:ft=zsh:et:sts=2:sw=2

@@ -210,5 +210,3 @@ elif compset -P '*:'; then
 fi
 
 _parameters -e
-
-# vim:ft=zsh:et:sts=2:sw=2

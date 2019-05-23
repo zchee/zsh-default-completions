@@ -7,5 +7,3 @@ _arguments -s \
   '(-f -u)-s+[specify a subject]:subject' \
   "(-b -c -f -s *)-u+[read specified user's mail]:user:_users" \
   "(-f -u)*:recipient:_email_addresses -n $service"
-
-# vim:ft=zsh:et:sts=2:sw=2

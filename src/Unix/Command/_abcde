@@ -48,5 +48,3 @@ _arguments -s \
   "-W[concatenate CD's]:cd-number" \
   '-z[debug mode]' \
   '*:tracks:'
-
-# vim:ft=zsh:et:sts=2:sw=2

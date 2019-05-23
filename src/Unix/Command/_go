@@ -16,5 +16,3 @@ case $service in
 esac
 
 _wanted files expl "input file" _files -g "$pat"
-
-# vim:ft=zsh:et:sts=2:sw=2

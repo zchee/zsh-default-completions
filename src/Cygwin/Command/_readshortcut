@@ -19,5 +19,3 @@ _arguments -s -S \
   '(- 1)'{-v,--version}'[display version information]' \
   '(- 1)--license[display licensing information]' \
   '1:shortcut:_files -g "*.lnk(-.)"'
-
-# vim:ft=zsh:et:sts=2:sw=2

@@ -20,5 +20,3 @@ _arguments \
   '(-u --update)'{-u,--update}'[update current cross-inst]' \
   '(-Q --query)'{-Q,--query}'[print available update packages]' \
   '*:package or path or pattern:_files'
-
-# vim:ft=zsh:et:sts=2:sw=2

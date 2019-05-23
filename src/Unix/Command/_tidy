@@ -60,5 +60,3 @@ _arguments -s -A "-*" --$^opts \
   '-utf16[use UTF-16 for both input and output]' \
   '-shiftjis[use Shift_JIS for both input and output]' \
   '-big5[use Big5 for both input and output]'
-
-# vim:ft=zsh:et:sts=2:sw=2

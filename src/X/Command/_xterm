@@ -23,5 +23,3 @@ _xt_arguments \
   '-ziconbeep:iconbeep (percent):' \
   '-C' \
   '-S-:pseudo-terminal and file descriptor:'
-
-# vim:ft=zsh:et:sts=2:sw=2

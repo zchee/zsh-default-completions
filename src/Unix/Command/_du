@@ -77,5 +77,3 @@ else
   done
   _arguments -s -A "-*" $args '*:file:_files'
 fi
-
-# vim:ft=zsh:et:sts=2:sw=2

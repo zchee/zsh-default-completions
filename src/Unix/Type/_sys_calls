@@ -18,5 +18,3 @@ syscalls=( ${${${(M)${(f)"$(<$ifile)"}:#\#[[:blank:]]#define[[:blank:]]##SYS_*}#
 
 _description syscalls expl 'system call'
 compadd "$@" "$expl[@]" -a syscalls
-
-# vim:ft=zsh:et:sts=2:sw=2

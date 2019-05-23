@@ -41,5 +41,3 @@ else
   _wanted words expl word compadd -M 'm:{a-zA-Z}={A-Za-z} r:|=*' "$@" - \
       ${dictwords:#*:}
 fi
-
-# vim:ft=zsh:et:sts=2:sw=2

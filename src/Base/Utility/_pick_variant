@@ -47,5 +47,3 @@ done
 [[ $pre != builtin ]] && _cmd_variant[$opts[-c]]="$1"
 
 return 1
-
-# vim:ft=zsh:et:sts=2:sw=2

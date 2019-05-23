@@ -113,5 +113,3 @@ if ! (( ${funcstack[2,-1][(I)_description]} )); then
 fi
 
 return 0
-
-# vim:ft=zsh:et:sts=2:sw=2

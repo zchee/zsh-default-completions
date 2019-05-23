@@ -103,5 +103,3 @@ _arch_namespace_revisions () {
 }
 
 _arch_namespace "$@"
-
-# vim:ft=zsh:et:sts=2:sw=2

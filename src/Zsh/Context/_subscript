@@ -129,5 +129,3 @@ elif [[ ${(Pt)${compstate[parameter]}} = array* ]]; then
 else
   _dispatch -math- -math-
 fi
-
-# vim:ft=zsh:et:sts=2:sw=2

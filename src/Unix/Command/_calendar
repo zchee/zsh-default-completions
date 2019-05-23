@@ -32,5 +32,3 @@ else
     '-t[act as though today is the date specified]:date:'
 
 fi
-
-# vim:ft=zsh:et:sts=2:sw=2

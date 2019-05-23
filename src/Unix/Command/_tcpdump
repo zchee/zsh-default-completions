@@ -192,5 +192,3 @@ fi
 
 _arguments -s $args \
   '*::BPF filter:= _bpf_filters'
-
-# vim:ft=zsh:et:sts=2:sw=2

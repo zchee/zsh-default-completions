@@ -535,5 +535,3 @@ _yum_caching_policy() {
 }
 
 _yum "$@"
-
-# vim:ft=zsh:et:sts=2:sw=2

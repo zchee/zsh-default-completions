@@ -72,5 +72,3 @@ _mac_files_for_application() {
 }
 
 _mac_files_for_application "$@"
-
-# vim:ft=zsh:et:sts=2:sw=2

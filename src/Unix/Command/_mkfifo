@@ -18,5 +18,3 @@ else
 fi
 
 _arguments -s -S $aopts : '*:FIFO:_files' $args
-
-# vim:ft=zsh:et:sts=2:sw=2

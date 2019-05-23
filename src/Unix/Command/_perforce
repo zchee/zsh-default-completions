@@ -3160,5 +3160,3 @@ _perforce_cmd_workspaces() {
 
 
 _perforce "$@"
-
-# vim:ft=zsh:et:sts=2:sw=2

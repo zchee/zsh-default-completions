@@ -40,5 +40,3 @@ case "$state" in
     _describe -t database database database && return
   ;;
 esac
-
-# vim:ft=zsh:et:sts=2:sw=2

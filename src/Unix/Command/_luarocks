@@ -635,5 +635,3 @@ case "$state" in
       _call_function ret _luarocks_${words[1]}
     fi
 esac
-
-# vim:ft=zsh:et:sts=2:sw=2

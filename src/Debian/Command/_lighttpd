@@ -14,5 +14,3 @@ case "$service" in
 esac
 
 return
-
-# vim:ft=zsh:et:sts=2:sw=2

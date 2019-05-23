@@ -247,5 +247,3 @@ _rsync() {
 }
 
 _rsync "$@"
-
-# vim:ft=zsh:et:sts=2:sw=2

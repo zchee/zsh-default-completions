@@ -53,5 +53,3 @@ esac
 
 _arguments -s -S $aopts $args \
   '*: :_files'
-
-# vim:ft=zsh:et:sts=2:sw=2

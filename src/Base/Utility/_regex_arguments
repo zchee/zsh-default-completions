@@ -84,5 +84,3 @@ _regex_arguments () {
 }
 
 _regex_arguments "$@"
-
-# vim:ft=zsh:et:sts=2:sw=2

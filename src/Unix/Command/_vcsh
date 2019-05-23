@@ -87,5 +87,3 @@ function _vcsh () {
 }
 
 _vcsh "$@"
-
-# vim:ft=zsh:et:sts=2:sw=2

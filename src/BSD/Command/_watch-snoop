@@ -11,5 +11,3 @@ _arguments -w -S -s : \
   "-t[print date and time at start]" \
   "-W[allow write access to observed tty]" \
   "(-): : _ttys -Do"
-
-# vim:ft=zsh:et:sts=2:sw=2

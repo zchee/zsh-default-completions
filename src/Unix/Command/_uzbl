@@ -8,5 +8,3 @@ _arguments \
   '--display=:X display:_x_display' \
   '--help[help]'
 
-
-# vim:ft=zsh:et:sts=2:sw=2

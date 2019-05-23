@@ -40,5 +40,3 @@ case $OSTYPE in
       '*::service argument: _init_d'
   ;;
 esac
-
-# vim:ft=zsh:et:sts=2:sw=2

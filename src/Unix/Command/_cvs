@@ -962,5 +962,3 @@ _cvs_path_prefixes() {
 }
 
 _cvs "$@"
-
-# vim:ft=zsh:et:sts=2:sw=2

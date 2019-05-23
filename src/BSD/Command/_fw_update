@@ -8,5 +8,3 @@ _arguments -s -S -A "-*" \
   '-p[use the firmware at specified path]:path:' \
   '*-v[verbose output]' \
   '(-a)*:driver:'
-
-# vim:ft=zsh:et:sts=2:sw=2

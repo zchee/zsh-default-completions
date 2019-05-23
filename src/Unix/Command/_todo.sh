@@ -171,5 +171,3 @@ case $nextstate in
     compadd $(todo.sh lsprj) $(todo.sh lsc)
   ;;
 esac
-
-# vim:ft=zsh:et:sts=2:sw=2

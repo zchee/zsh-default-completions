@@ -6,5 +6,3 @@ if (( CURRENT == 2 )); then
 else
   _files
 fi
-
-# vim:ft=zsh:et:sts=2:sw=2

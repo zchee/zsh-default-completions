@@ -13,5 +13,3 @@ done
 _describe -t wakeup-capable-devices 'wakeup capable device' desc "$@" && ret=0
 
 return ret
-
-# vim:ft=zsh:et:sts=2:sw=2

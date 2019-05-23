@@ -3,5 +3,3 @@
 _arguments \
   '-f[output to file]' \
   '*:changes file:_files -g "*.changes(-.)"'
-
-# vim:ft=zsh:et:sts=2:sw=2

@@ -583,5 +583,3 @@ _baz_main () {
 }
 
 _baz_main "$@"
-
-# vim:ft=zsh:et:sts=2:sw=2

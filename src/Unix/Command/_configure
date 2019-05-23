@@ -9,5 +9,3 @@ _arguments -- -i '(--(disable|enable)-FEATURE* --(with|without)-PACKAGE*)' \
               '*=PROGRAM*:program:_command_names -e' \
 	      '*=NAME*executable*:program:_command_names -e' \
 	      '*=NAME*:file:_files'
-
-# vim:ft=zsh:et:sts=2:sw=2

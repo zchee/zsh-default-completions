@@ -26,5 +26,3 @@ _mysql_db_or_file () {
 
 _mysql_utils
 _mysqldiff "$@"
-
-# vim:ft=zsh:et:sts=2:sw=2

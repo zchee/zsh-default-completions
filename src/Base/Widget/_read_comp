@@ -150,5 +150,3 @@ if [[ $str = _* ]]; then
 else
   eval "compadd $str"
 fi
-
-# vim:ft=zsh:et:sts=2:sw=2

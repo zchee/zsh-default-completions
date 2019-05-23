@@ -94,5 +94,3 @@ _smf_caching_policy() {
 }
 
 _svcs_fmri "$@"
-
-# vim:ft=zsh:et:sts=2:sw=2

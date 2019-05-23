@@ -1,5 +1,3 @@
 #compdef -assign-parameter-
 
 _parameters -g "^*readonly*" -S ''
-
-# vim:ft=zsh:et:sts=2:sw=2

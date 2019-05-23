@@ -10,5 +10,3 @@ shift
 _message -e "$*"
 
 [[ -n "$PREFIX$SUFFIX" ]]
-
-# vim:ft=zsh:et:sts=2:sw=2

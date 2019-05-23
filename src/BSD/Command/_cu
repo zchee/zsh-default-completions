@@ -62,5 +62,3 @@ _arguments -s $args \
   '(--speed)-s+[set line speed for the connection]:line speed [9600]:_baudrates' \
   '(1 --line -z --system)-l+[specify line to use]:line:(/dev/(cuaU#<->|ttyS<->|tty.*|cu.*)(N%c))' \
   '1: :_guard "^-*" system'
-
-# vim:ft=zsh:et:sts=2:sw=2

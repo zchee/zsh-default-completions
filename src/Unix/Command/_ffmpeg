@@ -198,5 +198,3 @@ _arguments -C -S \
     _ffmpeg_flags $state && return
 
 return 1
-
-# vim:ft=zsh:et:sts=2:sw=2

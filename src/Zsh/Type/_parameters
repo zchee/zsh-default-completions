@@ -37,5 +37,3 @@ _wanted parameters expl parameter \
         "${(@M)${(@k)parameters[(R)${pattern[2]}~*local*]}:#${~pfilt}*}" \
         "$fakes[@]" \
         "${(@)${(@M)faked:#${~pattern[2]}}%%:*}"
-
-# vim:ft=zsh:et:sts=2:sw=2

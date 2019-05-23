@@ -22,5 +22,3 @@ _arguments -S \
   + 'H' \
   '(- *)--help[display usage information]' \
   '(- *)--version[display version information]'
-
-# vim:ft=zsh:et:sts=2:sw=2

@@ -110,5 +110,3 @@ args+=(
 )
 
 _arguments -s -S -A '-*' : $args
-
-# vim:ft=zsh:et:sts=2:sw=2

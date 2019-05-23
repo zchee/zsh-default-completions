@@ -119,5 +119,3 @@ _history_complete_word_gen_matches () {
 }
 
 _history_complete_word "$@"
-
-# vim:ft=zsh:et:sts=2:sw=2

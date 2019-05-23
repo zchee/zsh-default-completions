@@ -5,5 +5,3 @@ local expl tags
 [[ -r tags ]] && tags=( ${${${(f)"$(< tags)"}:#!*}%%[[:blank:]]*} )
 
 _wanted ctags expl 'tag' compadd -M 'm:{a-zA-Z}={A-Za-z}' -a "$@" - tags
-
-# vim:ft=zsh:et:sts=2:sw=2

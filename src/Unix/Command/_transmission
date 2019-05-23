@@ -501,5 +501,3 @@ _arguments \
   "${general_actions[@]}" \
   "${torrent_add_options[@]}" \
   "${torrent_action_only_actions[@]}"
-
-# vim:ft=zsh:et:sts=2:sw=2

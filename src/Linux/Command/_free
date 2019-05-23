@@ -23,5 +23,3 @@ _arguments -s \
   '(--si)--tera[display the amount of memory in terabytes]' \
   '(--si)--peta[display the amount of memory in petabytes]' \
   {-h,--human}'[automatically select unit]'
-
-# vim:ft=zsh:et:sts=2:sw=2

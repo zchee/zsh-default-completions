@@ -71,5 +71,3 @@ esac
 
 _arguments -s $args \
   "($hlp):typescript file:_files"
-
-# vim:ft=zsh:et:sts=2:sw=2

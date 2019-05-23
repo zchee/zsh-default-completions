@@ -9,5 +9,3 @@ _arguments -S : \
   '(-t --tree)'{-t,--tree}'[show tree view of processes]' \
   '(-u --user)'{-u+,--user=}'[show processes of user]: : _users' \
   '(-)'{-v,--version}'[display version information]'
-
-# vim:ft=zsh:et:sts=2:sw=2

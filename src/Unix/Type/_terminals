@@ -6,5 +6,3 @@ desc=( $TERMINFO ~/.terminfo $TERMINFO_DIRS /usr/{,share/}{,lib/}terminfo /{etc,
 
 _wanted terminals expl 'terminal name' \
     compadd "$@" - $desc/*/*(N:t)
-
-# vim:ft=zsh:et:sts=2:sw=2

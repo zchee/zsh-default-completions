@@ -16,5 +16,3 @@ _arguments -s \
   '-v[display elm version]' \
   '-w[write .elm/elmrc]' \
   '-z[start only if new messages]'
-
-# vim:ft=zsh:et:sts=2:sw=2

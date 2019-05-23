@@ -177,5 +177,3 @@ _module_available_modules()
 }
 
 _module "$@"
-
-# vim:ft=zsh:et:sts=2:sw=2

@@ -20,5 +20,3 @@ _pick_variant ali='(Rantakari|hasseg)' other --version && {
 }
 
 _default
-
-# vim:ft=zsh:et:sts=2:sw=2

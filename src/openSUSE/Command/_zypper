@@ -183,5 +183,3 @@ _zypper_cmd_do() {
 
 # Code to make sure _zypper is run when we load it
 _zypper "$@"
-
-# vim:ft=zsh:et:sts=2:sw=2

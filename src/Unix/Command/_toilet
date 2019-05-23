@@ -19,5 +19,3 @@ _arguments \
   '(-h --help)'{-h,--help}'[help]' \
   '(-I --infocode)'{-I,--infocode}'[print FIGlet-compatible infocode]:code:' \
   '(-v --version)'{-v,--version}'[version]'
-
-# vim:ft=zsh:et:sts=2:sw=2

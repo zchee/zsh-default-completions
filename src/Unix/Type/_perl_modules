@@ -150,5 +150,3 @@ _perl_modules_caching_policy () {
 }
 
 _perl_modules "$@"
-
-# vim:ft=zsh:et:sts=2:sw=2

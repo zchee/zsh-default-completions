@@ -10,5 +10,3 @@ for distro in /usr/share/distro-info/*.csv(N); do
 done
 
 return ret
-
-# vim:ft=zsh:et:sts=2:sw=2

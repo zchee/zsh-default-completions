@@ -38,5 +38,3 @@ _set_command
 
 _dispatch ${(k)opts[-s]} "$_comp_command" \
           "$_comp_command1" "$_comp_command2" -default-
-
-# vim:ft=zsh:et:sts=2:sw=2

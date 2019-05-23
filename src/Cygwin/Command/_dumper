@@ -9,5 +9,3 @@ _arguments -s -S \
   '(- 1 *)'{-v,--version}'[output version information and exit]' \
   '1: :_files' \
   '*: :_pids'
-
-# vim:ft=zsh:et:sts=2:sw=2

@@ -31,5 +31,3 @@ if (( desc )); then
 else
   _wanted jails expl jail compadd "$@" "$args[@]" - ${jails%:*}
 fi
-
-# vim:ft=zsh:et:sts=2:sw=2

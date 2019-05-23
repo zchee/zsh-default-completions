@@ -177,5 +177,3 @@ _arguments \
 	"(-)"{-h,--help}'[display general help message]' \
 	"(-)"{-V,--version}'[print version information for mdadm]' \
 	"$args[@]"
-
-# vim:ft=zsh:et:sts=2:sw=2

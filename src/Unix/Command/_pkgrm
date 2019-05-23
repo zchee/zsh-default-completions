@@ -18,5 +18,3 @@ _pkgrm() {
 }
 
 _pkgrm "$@"
-
-# vim:ft=zsh:et:sts=2:sw=2

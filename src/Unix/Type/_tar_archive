@@ -28,5 +28,3 @@ if [[ "$1" = *[urtx]* ]]; then
 else
   _files "$expl[@]"
 fi
-
-# vim:ft=zsh:et:sts=2:sw=2

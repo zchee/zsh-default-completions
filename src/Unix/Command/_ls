@@ -206,5 +206,3 @@ else
 fi
 
 _arguments -s -S : $arguments
-
-# vim:ft=zsh:et:sts=2:sw=2

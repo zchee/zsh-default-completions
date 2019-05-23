@@ -7,5 +7,3 @@ _arguments -s \
   '(- *)'{-h,--help}'[display help and exit]' \
   '(- *)'{-V,--version}'[display version information and exit]' \
   '1: :_ttys -o'
-
-# vim:ft=zsh:et:sts=2:sw=2

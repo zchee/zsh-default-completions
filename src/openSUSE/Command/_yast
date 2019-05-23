@@ -12,5 +12,3 @@ _arguments \
   '(-)'{-i,--install}'[install package]:*:package file:_files -g "*.rpm(-.)"' \
   '(-)--remove[remove package]:*:package' \
   '1:module:( ${${(f)"$($words[1] -l 2>/dev/null)"}[2,-1]##* } )'
-
-# vim:ft=zsh:et:sts=2:sw=2

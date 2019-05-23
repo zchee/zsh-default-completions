@@ -5,5 +5,3 @@ _arguments \
   '-V[show result of command search in verbose form]:*:command:_path_commands' \
   '(-)-p[use default PATH to find command]' \
   '*:: : _normal -p $service'
-
-# vim:ft=zsh:et:sts=2:sw=2

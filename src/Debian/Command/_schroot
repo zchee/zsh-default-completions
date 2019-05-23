@@ -34,5 +34,3 @@ case "$state" in
 	  compadd $(schroot -l -a)
 	;;
 esac
-
-# vim:ft=zsh:et:sts=2:sw=2

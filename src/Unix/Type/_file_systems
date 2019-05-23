@@ -36,5 +36,3 @@ case $OSTYPE in
 esac
 
 _wanted fstypes expl 'file system type' compadd "$@" -M 'L:|no=' -a "$@" - fss
-
-# vim:ft=zsh:et:sts=2:sw=2

@@ -64,5 +64,3 @@ if [[ $state == options ]]; then
 fi
 
 return ret
-
-# vim:ft=zsh:et:sts=2:sw=2

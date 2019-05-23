@@ -19,5 +19,3 @@ if [[ CURRENT -eq 2 ]]; then
   fi
 fi
 compset -n 3 && _normal
-
-# vim:ft=zsh:et:sts=2:sw=2

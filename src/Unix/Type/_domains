@@ -18,5 +18,3 @@ fi
 
 _wanted domains expl domain \
     compadd -M 'm:{a-zA-Z}={A-Za-z} r:|.=* r:|=*' -a "$@" - domains
-
-# vim:ft=zsh:et:sts=2:sw=2

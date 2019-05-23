@@ -215,5 +215,3 @@ _regex_arguments _bpf /$'[^\0]#\0'/ \( \
   /$'(and|or|&&|\\|\\||\\))[ \0]'/ -proto=0 ':operators:operator:compadd and or \)' \) \#
 
 _bpf "$@"
-
-# vim:ft=zsh:et:sts=2:sw=2

@@ -276,5 +276,3 @@ case $state in
   _describe -t globquals "glob qualifier" quals -Q -S ''
   ;;
 esac
-
-# vim:ft=zsh:et:sts=2:sw=2

@@ -8,5 +8,3 @@ _arguments -C -s \
   '(-o -n -l -p)-M[list mapping of physical and logical partition numbers]' \
   '(-o -n -l -M)-p[list physical volumes used by volume group]' \
   '*:volume group:_volume_groups'
-
-# vim:ft=zsh:et:sts=2:sw=2

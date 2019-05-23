@@ -34,5 +34,3 @@ _arguments -s -S \
   '(-V --verbose)'{-V,--verbose}'[when used with --query or --list, causes extra information to be printed]' \
   '(- *)'{-h,--help}'[print help information]' \
   '(- *)'{-v,--version}'[print version information]'
-
-# vim:ft=zsh:et:sts=2:sw=2

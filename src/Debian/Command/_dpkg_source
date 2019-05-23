@@ -26,5 +26,3 @@ _arguments \
   '-sp[leave original source packed in cwd]' \
   '-su[unpack original source tree too]' \
   '-h[help]'
-
-# vim:ft=zsh:et:sts=2:sw=2

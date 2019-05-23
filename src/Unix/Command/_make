@@ -294,5 +294,3 @@ _make() {
 }
 
 _make "$@"
-
-# vim:ft=zsh:et:sts=2:sw=2

@@ -11,5 +11,3 @@ be_names=( ${${(f)"$(_call_program boot-environs beadm list -H)"}%%;*} )
 
 _description boot-environs expl 'boot environment'
 compadd "$@" "$expl[@]" -a be_names
-
-# vim:ft=zsh:et:sts=2:sw=2

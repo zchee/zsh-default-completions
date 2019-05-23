@@ -1075,5 +1075,3 @@ _hg_cmd_strip() {
 }
 
 _hg "$@"
-
-# vim:ft=zsh:et:sts=2:sw=2

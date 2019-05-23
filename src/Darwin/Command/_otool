@@ -45,5 +45,3 @@ case $state in
       ${~words[1]} --version 2>/dev/null)##*Registered Targets:}/ -*}}"
   ;;
 esac
-
-# vim:ft=zsh:et:sts=2:sw=2

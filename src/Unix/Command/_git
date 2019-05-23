@@ -7909,5 +7909,3 @@ for file in ${^fpath}/_git-*~(*~|*.zwc)(-.N); do
 done
 
 _git
-
-# vim:ft=zsh:et:sts=2:sw=2

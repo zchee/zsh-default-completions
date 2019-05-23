@@ -67,5 +67,3 @@ fi
 _arguments -s $args && ret=0
 
 return ret
-
-# vim:ft=zsh:et:sts=2:sw=2

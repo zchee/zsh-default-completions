@@ -75,5 +75,3 @@ case $OSTYPE in
 esac
 
 _arguments $args
-
-# vim:ft=zsh:et:sts=2:sw=2

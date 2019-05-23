@@ -15,5 +15,3 @@ _wanted zsh-options expl 'zsh options (unset)' \
     compadd -J 'disabled options' -M 'M:_= M:{A-Z}={a-z}' -k - offopts && ret=0
 
 return ret
-
-# vim:ft=zsh:et:sts=2:sw=2

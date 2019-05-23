@@ -57,5 +57,3 @@ fds=( 0 1 2 $fds )
 
 _description -V file-descriptors expl 'file descriptor'
 compadd $disp -o nosort "$@" "$expl[@]" -a fds
-
-# vim:ft=zsh:et:sts=2:sw=2

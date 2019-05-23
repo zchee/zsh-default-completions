@@ -15,5 +15,3 @@ if comptags -R "$1"; then
 else
   return 1
 fi
-
-# vim:ft=zsh:et:sts=2:sw=2

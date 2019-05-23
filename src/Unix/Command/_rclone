@@ -333,5 +333,3 @@ if [[ $state == 'files_or_remotes' ]]; then
 fi
 
 return ret
-
-# vim:ft=zsh:et:sts=2:sw=2

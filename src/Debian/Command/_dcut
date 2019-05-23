@@ -158,5 +158,3 @@ function _dcut() {
 }
 
 _dcut "$@"
-
-# vim:ft=zsh:et:sts=2:sw=2

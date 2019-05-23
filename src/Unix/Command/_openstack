@@ -190,5 +190,3 @@ elif [[ -n ${clnts_swift_like[(r)$service]} ]]; then
 fi
 
 return ret
-
-# vim:ft=zsh:et:sts=2:sw=2

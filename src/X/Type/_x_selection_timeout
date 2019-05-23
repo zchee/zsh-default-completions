@@ -7,5 +7,3 @@ if (( x )); then
 else
   _message -e values 'selection timeout'
 fi
-
-# vim:ft=zsh:et:sts=2:sw=2

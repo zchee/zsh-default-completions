@@ -29,5 +29,3 @@ else
   _comp_command2="$commands[$command]"
   _comp_command="$_comp_command1"
 fi
-
-# vim:ft=zsh:et:sts=2:sw=2

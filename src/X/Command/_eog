@@ -22,5 +22,3 @@ _arguments -s -S \
   '(-w --single-window)'{-w,--single-window}'[open in single window]' \
   '--display=[specify X display]:display:_x_display' \
   '*:image file:_files -g "*.(#i)(ani|bmp|gif|ico|jpeg|jpg|pcx|png|pnm|ras|svg|tga|tiff||tif|wbmp|wbm|xbm|xpm)(-.)"'
-
-# vim:ft=zsh:et:sts=2:sw=2

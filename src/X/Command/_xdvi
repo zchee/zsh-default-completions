@@ -28,5 +28,3 @@ _xt_arguments \
   '-xoffset:horizontal offset' \
   '-yoffset:vertical offset' \
   '*:DVI file:_files -g "*.(#i)dvi(|.Z|.gz|.bz2)(-.)"'
-
-# vim:ft=zsh:et:sts=2:sw=2

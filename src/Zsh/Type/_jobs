@@ -82,5 +82,3 @@ if [[ -n "$desc" ]]; then
 else
   _wanted jobs expl "$expls" compadd "$@" - "%$^jobs[@]"
 fi
-
-# vim:ft=zsh:et:sts=2:sw=2

@@ -13,5 +13,3 @@ if [[ -n $functions[zsh_directory_name] || \
 else
   _message 'dynamic directory name: implemented as zsh_directory_name c'
 fi
-
-# vim:ft=zsh:et:sts=2:sw=2

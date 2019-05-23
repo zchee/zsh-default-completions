@@ -43,5 +43,3 @@ fi
 
 _wanted -V directory-stack expl 'directory stack' \
     compadd "$@" "$disp[@]" -Q -a list
-
-# vim:ft=zsh:et:sts=2:sw=2

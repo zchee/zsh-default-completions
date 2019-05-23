@@ -421,5 +421,3 @@ _arguments -C \
   '(- :)'{-v,--version}'[print version]' \
   '(- :)'{-h,--help}'[print help]' \
   '*:file:_files'
-
-# vim:ft=zsh:et:sts=2:sw=2
