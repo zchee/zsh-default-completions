@@ -1,6 +1,6 @@
 .DEFAULT_GOAL = all
 
-all: zsh src commit clean/zsh
+all: zsh src magic commit clean/zsh
 
 
 zsh: clean/zsh
@@ -9,6 +9,8 @@ zsh: clean/zsh
 src: clean/src
 	cp -rH zsh/Completion ./src
 
+magic: src
+	find ./src -type f | xargs -I{} -P $(shell nproc) bash -c "printf '\\n# vim:ft=zsh' >> {}"
 
 .PHONY: commit
 commit:
