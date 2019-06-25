@@ -10,3 +10,5 @@ if ! zstyle -a ":completion:${curcontext}:" ports ports; then
 fi
 
 _wanted ports expl port compadd -a "$@" - ports
+
+# vim:ft=zsh

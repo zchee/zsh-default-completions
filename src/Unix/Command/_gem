@@ -318,3 +318,5 @@ if [[ $state = command ]]; then
 fi
 
 return ret
+
+# vim:ft=zsh

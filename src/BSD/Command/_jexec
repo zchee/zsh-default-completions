@@ -19,3 +19,5 @@ _jexec() {
 }
 
 _jexec "$@"
+
+# vim:ft=zsh

@@ -73,3 +73,5 @@ _rlogin_all_hosts () {
 }
 
 _rlogin "$@"
+
+# vim:ft=zsh

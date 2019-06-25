@@ -42,3 +42,5 @@ _arguments -s \
   '*:file:_files' && return 0
 
 return 1
+
+# vim:ft=zsh

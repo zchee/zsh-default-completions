@@ -4,3 +4,5 @@ _arguments : \
   '(-)-buildVersion[display build version only]' \
   '(-)-productName[display product name only]' \
   '(-)-productVersion[display product version only]'
+
+# vim:ft=zsh

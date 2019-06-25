@@ -15,3 +15,5 @@ _arguments -s \
     '-M[set make variables to ENV (ex. PORTSDIR=/usr/ports.work)]: :_guard ".#" "environment vars"' \
     '-B[allow # contiguous blank lines]: :_guard "[0-9]#" "numeric value"' \
     ':port directory:_files -/'
+
+# vim:ft=zsh

@@ -65,3 +65,5 @@ for tmp in "$comp[@]"; do
 done
 
 return 1
+
+# vim:ft=zsh

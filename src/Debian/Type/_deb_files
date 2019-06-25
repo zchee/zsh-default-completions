@@ -15,3 +15,5 @@ zparseopts -a _fopts -D -E - \
 
 _description files _expl 'Debian package'
 _files "${(@)_fopts}" "${(@)_expl}" -g "*.(${(j<|>)_exts})(-.)"
+
+# vim:ft=zsh

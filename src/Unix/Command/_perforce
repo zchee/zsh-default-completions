@@ -3160,3 +3160,5 @@ _perforce_cmd_workspaces() {
 
 
 _perforce "$@"
+
+# vim:ft=zsh

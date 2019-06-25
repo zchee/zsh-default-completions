@@ -53,3 +53,5 @@ case "$service" in
       '(-source_mounted)-source_device[specify source device to install from]:source device:{compadd "$expl[@]" /dev/*}'
   ;;
 esac
+
+# vim:ft=zsh

@@ -64,3 +64,5 @@ else
   done
   _arguments -s -S $args
 fi
+
+# vim:ft=zsh

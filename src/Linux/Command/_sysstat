@@ -156,3 +156,5 @@ _sysstat() {
 }
 
 _sysstat "$@"
+
+# vim:ft=zsh

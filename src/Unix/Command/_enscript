@@ -190,3 +190,5 @@ Description: ([^
     _describe -t languages 'input language' _cache_enscript_languages
   ;;
 esac
+
+# vim:ft=zsh

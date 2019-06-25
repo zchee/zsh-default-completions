@@ -22,3 +22,5 @@ elif [[ $variant != gnu ]]; then
 fi
 
 _arguments -s -S : $args
+
+# vim:ft=zsh

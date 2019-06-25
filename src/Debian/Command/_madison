@@ -12,3 +12,5 @@ _arguments \
   '(-S, --source-and-binary)'{-S,--source-and-binary} \
   '*:package:_deb_packages avail'
 
+
+# vim:ft=zsh

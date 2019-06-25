@@ -66,3 +66,5 @@ case $service in
     return
     ;;
 esac
+
+# vim:ft=zsh

@@ -9,3 +9,5 @@ _arguments \
   '--no-fallback[ignore any fallback action requests by the policy layer]' \
   '1:service:_services' \
   '2:command:(start stop force-stop restart reload force-reload status)'
+
+# vim:ft=zsh

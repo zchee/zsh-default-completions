@@ -7,3 +7,5 @@ if (( ! $+_zoneinfo_dirs )); then
 fi
 
 _wanted time-zones expl 'time zone' _files -W _zoneinfo_dirs "$@" -
+
+# vim:ft=zsh

@@ -39,3 +39,5 @@ while (( $#state )); do
   esac
   shift state
 done
+
+# vim:ft=zsh

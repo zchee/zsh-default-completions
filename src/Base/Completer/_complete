@@ -142,3 +142,5 @@ fi
 _compskip=
 
 return ret
+
+# vim:ft=zsh

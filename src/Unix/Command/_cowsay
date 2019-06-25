@@ -29,3 +29,5 @@ case "$state" in
       ${=${(f)"$(_call_program cowfiles $words[1] -l)"}:#*\:} || _files -g "*.cow(-.)"
   ;;
 esac
+
+# vim:ft=zsh

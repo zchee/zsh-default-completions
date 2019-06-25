@@ -35,3 +35,5 @@ _arguments -S -s : \
   '--jsonargs[remaining arguments are JSON arguments, not files]' \
   "1: :_guard '|[^-]' filter" \
   "*: :_files"
+
+# vim:ft=zsh

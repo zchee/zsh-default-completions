@@ -166,3 +166,5 @@ if [[ $state = times ]]; then
   alts+=( "times:${state_descr}:_dates -f d" )
   _alternative $alts
 fi
+
+# vim:ft=zsh

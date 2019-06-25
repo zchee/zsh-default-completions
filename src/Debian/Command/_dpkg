@@ -192,3 +192,5 @@ case "$state" in
     _wanted architecture expl 'extra architecture' \
       compadd ${(f)"$(dpkg --print-foreign-architectures 2>/dev/null)"}
 esac
+
+# vim:ft=zsh

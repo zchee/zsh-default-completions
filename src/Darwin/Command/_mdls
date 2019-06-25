@@ -7,3 +7,5 @@ _arguments -s -S : \
   '(-p -r -nullMarker -plist -raw)'{-p,-plist}'[output in XML plist format to specified file]:output file:_files' \
   '(-p -r -plist -raw)'{-r,-raw}'[print raw (NUL-delimited) attribute data]' \
   '*: :_files'
+
+# vim:ft=zsh

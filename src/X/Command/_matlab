@@ -21,3 +21,5 @@ _arguments : \
     '-logfile[copy any command window output to a file]:log file:_files' \
     '-D-:debugger:_command_names -e' \
     '-nouserjavapath[ignore custom javaclasspath.txt and javalibrarypath.txt files]'
+
+# vim:ft=zsh

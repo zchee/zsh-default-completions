@@ -196,3 +196,5 @@ _dnf_command() {
 }
 
 _dnf "$@"
+
+# vim:ft=zsh

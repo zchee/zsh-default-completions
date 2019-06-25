@@ -177,3 +177,5 @@ _module_available_modules()
 }
 
 _module "$@"
+
+# vim:ft=zsh

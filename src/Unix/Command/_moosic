@@ -485,3 +485,5 @@ _moosic_cmd_die() {
 }
 
 _moosic "$@"
+
+# vim:ft=zsh

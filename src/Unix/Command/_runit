@@ -71,3 +71,5 @@ case $state in
     _describe -t services "sv services" sv_services
   ;;
 esac
+
+# vim:ft=zsh

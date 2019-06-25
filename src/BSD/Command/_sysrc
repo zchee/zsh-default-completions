@@ -92,3 +92,5 @@ _sysrc() {
 }
 
 _sysrc "$@"
+
+# vim:ft=zsh

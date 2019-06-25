@@ -169,3 +169,5 @@ case $service in
 
   *) _message "unknown sccs command: $service";;
 esac
+
+# vim:ft=zsh

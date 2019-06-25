@@ -3,3 +3,5 @@
 local expl
 
 _wanted volumegroups expl 'volume group' compadd "$@" - $(lsvg)
+
+# vim:ft=zsh

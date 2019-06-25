@@ -40,3 +40,5 @@ _arguments -s -S : \
   '*'{-T+,--template-dir=}'[specify template directory]:template directory:_files -/' \
   '--trace[include backtrace information on errors]' \
   '*:source file:_files'
+
+# vim:ft=zsh

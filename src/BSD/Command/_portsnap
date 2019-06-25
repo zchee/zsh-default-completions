@@ -27,3 +27,5 @@ if [[ $state == principal ]]; then
 fi
 
 return ret
+
+# vim:ft=zsh

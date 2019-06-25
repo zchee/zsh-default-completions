@@ -283,3 +283,5 @@ __cdrdao-drivers () {
 # }}}1
 
 _cdrdao
+
+# vim:ft=zsh

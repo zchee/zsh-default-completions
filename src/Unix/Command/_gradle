@@ -118,3 +118,5 @@ if [[ $words[CURRENT] != -* ]]; then
 fi
 
 return ret
+
+# vim:ft=zsh

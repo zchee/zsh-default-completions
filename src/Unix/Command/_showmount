@@ -8,3 +8,5 @@ _arguments \
 	'(-v --version)'{-v,--version}'[version]' \
 	'--no-headers[suppress descriptive headers from output]' \
 	':host:_hosts'
+
+# vim:ft=zsh

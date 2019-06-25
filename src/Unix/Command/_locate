@@ -94,3 +94,5 @@ case $variant in
 esac
 
 _arguments $args '*: :_guard "^-*" pattern'
+
+# vim:ft=zsh

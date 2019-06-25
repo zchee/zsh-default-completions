@@ -89,3 +89,5 @@ users)
 esac
 
 return ret
+
+# vim:ft=zsh

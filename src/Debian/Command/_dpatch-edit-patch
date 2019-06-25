@@ -15,3 +15,5 @@ _arguments \
   '(-h --help)'{-h,--help}'[help text]' \
   '1:patch name:_files -W $PWD/debian/patches -g \*.dpatch\(-.\:r\)' \
   '2:base patch name:_files -W $PWD/debian/patches -g \*.dpatch\(-.\:r\)'
+
+# vim:ft=zsh

@@ -5,3 +5,5 @@ _arguments -s -w -S : \
   '-f[force floating point for all expressions]' \
   '-e[treat command line as expressions to be output immediately]' \
   '*:expression: '
+
+# vim:ft=zsh

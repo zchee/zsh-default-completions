@@ -12,3 +12,5 @@ if (( $+commands[npm] )); then
 
   _npm_completion "$@"
 fi
+
+# vim:ft=zsh

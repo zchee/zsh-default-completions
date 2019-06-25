@@ -100,3 +100,5 @@ if zstyle -a ":completion:${curcontext}:$tag" "$style" tmp; then
 else
   (( $+functions[_$key] )) && "_$key" "$@"
 fi
+
+# vim:ft=zsh

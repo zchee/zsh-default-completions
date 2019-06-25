@@ -6,3 +6,5 @@ _arguments -C -s \
   '1:shell to emulate:(zsh sh ksh csh)' \
   '2:specify optional command:(-c)' \
   '3:command:_cmdstring'
+
+# vim:ft=zsh

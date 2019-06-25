@@ -263,3 +263,5 @@ if [[ -n "$state" ]]; then
 fi
 
 return 1
+
+# vim:ft=zsh

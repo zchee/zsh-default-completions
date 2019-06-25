@@ -91,3 +91,5 @@ if [[ "$state" = "urls" ]]; then
 fi
 
 return ret
+
+# vim:ft=zsh

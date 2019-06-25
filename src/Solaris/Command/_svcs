@@ -26,3 +26,5 @@ _arguments -s \
   '(-l)-x[display explanation for service states]' \
   '(-l -x)-\?[print help]' \
   '*:FMRI or pattern:_svcs_fmri -i'
+
+# vim:ft=zsh

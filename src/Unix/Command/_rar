@@ -130,3 +130,5 @@ case $service in
     fi
   ;;
 esac
+
+# vim:ft=zsh

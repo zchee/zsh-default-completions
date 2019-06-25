@@ -180,3 +180,5 @@ else
   done
 fi
 return $ret
+
+# vim:ft=zsh

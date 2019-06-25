@@ -336,3 +336,5 @@ done
 args+=( - sockets ${sock}${sockets} )
 
 _arguments -s -S $args
+
+# vim:ft=zsh

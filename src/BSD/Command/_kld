@@ -44,3 +44,5 @@ _kld() {
 }
 
 _kld "$@"
+
+# vim:ft=zsh

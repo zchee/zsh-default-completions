@@ -35,3 +35,5 @@ fi
 # We always return one, because we don't really do any work here.
 
 return 1
+
+# vim:ft=zsh

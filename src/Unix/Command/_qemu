@@ -53,3 +53,5 @@ _arguments \
   '-g[set initial graphic mode]:graphic mode:' \
   ':disk image:_files'
 
+
+# vim:ft=zsh

@@ -158,3 +158,5 @@ else
 
   return 1;
 fi
+
+# vim:ft=zsh

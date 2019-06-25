@@ -78,3 +78,5 @@ finger-targets)
 esac
 
 return ret
+
+# vim:ft=zsh

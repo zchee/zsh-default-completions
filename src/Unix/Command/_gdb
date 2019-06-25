@@ -53,3 +53,5 @@ else
     _files "$expl[@]" -g '*(-*)'
   fi
 fi
+
+# vim:ft=zsh

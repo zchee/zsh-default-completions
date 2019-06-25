@@ -174,3 +174,5 @@ case $service in
 		_arguments -s $arg_generic
 	;;
 esac
+
+# vim:ft=zsh

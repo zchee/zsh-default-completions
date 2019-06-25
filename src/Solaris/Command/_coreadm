@@ -43,3 +43,5 @@ _arguments -s \
   '*:pids:_pids' \
   - set3 \
   '-u[update options from coreadm.conf]'
+
+# vim:ft=zsh

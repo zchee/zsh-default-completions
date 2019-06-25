@@ -78,3 +78,5 @@ if (( ${#units} )); then
 else
   _message "No unit definitions found."
 fi
+
+# vim:ft=zsh

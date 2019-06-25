@@ -30,3 +30,5 @@ case $OSTYPE in
 esac
 
 _arguments -s $args
+
+# vim:ft=zsh

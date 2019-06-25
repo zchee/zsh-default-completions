@@ -18,3 +18,5 @@ _arguments -S -A "-" $args \
   '(-k --kill-after)'{-k,--kill-after}'[followup first signal with SIGKILL if command persists after specified time]:time:time' \
   '1: :_guard "[0-9.]#([smhd]|)" duration' \
   '*:::command:_normal'
+
+# vim:ft=zsh

@@ -26,3 +26,5 @@ _arguments \
   '--admindir=:dpkg database dir:_files -/' \
   '(-h --help)'{-h,--help}'[show usage message]' \
   '--version[show version]'
+
+# vim:ft=zsh

@@ -79,3 +79,5 @@ _notmuch()
 }
 
 _notmuch "$@"
+
+# vim:ft=zsh

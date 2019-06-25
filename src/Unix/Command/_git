@@ -7909,3 +7909,5 @@ for file in ${^fpath}/_git-*~(*~|*.zwc)(-.N); do
 done
 
 _git
+
+# vim:ft=zsh

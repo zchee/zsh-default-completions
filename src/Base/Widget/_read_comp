@@ -150,3 +150,5 @@ if [[ $str = _* ]]; then
 else
   eval "compadd $str"
 fi
+
+# vim:ft=zsh

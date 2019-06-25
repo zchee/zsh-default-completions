@@ -54,3 +54,5 @@ arg2)
 esac
 
 return ret
+
+# vim:ft=zsh

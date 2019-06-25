@@ -177,3 +177,5 @@ complete() {
 unfunction bashcompinit
 autoload -Uz bashcompinit
 return 0
+
+# vim:ft=zsh

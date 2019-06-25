@@ -174,3 +174,5 @@ _xwit () {
 }
 
 _xwit "$@"
+
+# vim:ft=zsh

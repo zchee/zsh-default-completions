@@ -39,3 +39,5 @@ _arguments \
   '--ad=:resource file:_files' \
   '--style=:resource file:_files' \
   '*:file: _pspdf -z'
+
+# vim:ft=zsh

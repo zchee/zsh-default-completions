@@ -30,3 +30,5 @@ _arguments -s -S -A "-*" : \
   '-t+[restrict verification to specified key type]:key type:((base\:"base sets" fw\:firmware pkg\:packages syspatch\:syspatches))' \
   '-x+[specify signature file]:signature file:_files' \
   '-z[verify signature in gzip header]'
+
+# vim:ft=zsh

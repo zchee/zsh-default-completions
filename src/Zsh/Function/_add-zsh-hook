@@ -22,3 +22,5 @@ _add-zsh-hook() {
 }
 
 _add-zsh-hook "$@"
+
+# vim:ft=zsh

@@ -65,3 +65,5 @@ esac
 
 (( $#shells )) || shells=( ${(Z+Cn+)"$(</etc/shells)"} )
 _arguments $args '1:user name:_users'
+
+# vim:ft=zsh

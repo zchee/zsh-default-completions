@@ -42,3 +42,5 @@ case $OSTYPE in
 esac
 
 _wanted $tagname expl 'process name' compadd "$@" -F '(ps)' -a - names
+
+# vim:ft=zsh

@@ -102,3 +102,5 @@ return $ret
 }
 
 _path_commands "$@"
+
+# vim:ft=zsh

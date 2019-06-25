@@ -33,3 +33,5 @@ else
 fi
 
 _arguments -s -S $optpar '*:file:_files' $args + '(formats)' '(H)'$^fmts
+
+# vim:ft=zsh

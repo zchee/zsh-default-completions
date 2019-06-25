@@ -4,3 +4,5 @@ _arguments \
   '(--help)-\\?[help]' \
   '(--windows)-w[number of empty windows]:number:' \
   '*:file: _pspdf -z' --
+
+# vim:ft=zsh

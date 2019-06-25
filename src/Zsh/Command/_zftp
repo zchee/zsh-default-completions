@@ -91,3 +91,5 @@ case $subcom in
     return 1
     ;;
 esac
+
+# vim:ft=zsh

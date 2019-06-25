@@ -17,3 +17,5 @@ else
   _wanted extensions expl 'X extension' \
       compadd "$@" -M 'm:{a-z}={A-Z} r:|-=* r:|=*' -a - _xe_cache
 fi
+
+# vim:ft=zsh

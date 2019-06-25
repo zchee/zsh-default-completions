@@ -18,3 +18,5 @@ _arguments -s -S : \
   "(-q -t -T)-s+[send specified signal to master process]:signal:((${(j< >)${(@q-)signals}}))" \
   '(-s -T)-t[test configuration]' \
   '(-s -t)-T[test and dump configuration]'
+
+# vim:ft=zsh

@@ -17,3 +17,5 @@ else
 fi
 
 _arguments -s $args "(--delimiters)-d+$dopt" "(--serial)-s$sopt" '*:file:_files'
+
+# vim:ft=zsh

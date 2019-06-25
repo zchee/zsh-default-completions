@@ -9,3 +9,5 @@ compadd "$@" "$expl[@]" amd64 evbarm evbmips evbppc hpcarm i386 sparc64 xen \
   landisk luna68k mac68k macppc mipsco mmeye mvme68k mvmeppc netwinder news68k \
   newsmips next68k ofppc pmax prep rs6000 sandpoint sbmips sgimips shark sparc \
   sun2 sun3 vax x68k zaurus
+
+# vim:ft=zsh

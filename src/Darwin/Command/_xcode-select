@@ -8,3 +8,5 @@ _arguments : \
   '(-)'{-p,--print-path}'[display path of active developer directory]' \
   '(-)'{-r,--reset}'[reset to default developer directory]' \
   '(-)'{-s,--switch}'[specify path of active developer directory]:developer directory:_files -/'
+
+# vim:ft=zsh

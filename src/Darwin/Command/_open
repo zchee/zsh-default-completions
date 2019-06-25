@@ -81,3 +81,5 @@ _open() {
 }
 
 _open "$@"
+
+# vim:ft=zsh

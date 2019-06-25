@@ -189,3 +189,5 @@ case "$words[1]" in
     _message "unknown prcs command: $words[1]"
   ;;
 esac
+
+# vim:ft=zsh

@@ -37,3 +37,5 @@ fi 2>&$err_fd
 exec {err_fd}>&-
 
 }
+
+# vim:ft=zsh

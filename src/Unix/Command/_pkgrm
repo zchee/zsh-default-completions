@@ -18,3 +18,5 @@ _pkgrm() {
 }
 
 _pkgrm "$@"
+
+# vim:ft=zsh

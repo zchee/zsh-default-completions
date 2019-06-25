@@ -98,3 +98,5 @@ elif [[ "$state" = flags ]]; then
 fi
 
 return ret
+
+# vim:ft=zsh

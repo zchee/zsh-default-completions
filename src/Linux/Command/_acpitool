@@ -67,3 +67,5 @@ fi
 _arguments -s $args && ret=0
 
 return ret
+
+# vim:ft=zsh

@@ -247,3 +247,5 @@ _mysql_utils() {
 }
 
 _mysql_utils "$@"
+
+# vim:ft=zsh

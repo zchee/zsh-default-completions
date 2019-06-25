@@ -10,3 +10,5 @@ _arguments -s \
 '-u+[report all files open by the specified user]:user:_users' \
 '-v[verbose mode]' \
 '*: :_files'
+
+# vim:ft=zsh

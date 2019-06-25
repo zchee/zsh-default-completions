@@ -218,3 +218,5 @@ case "$state" in
     _wanted headers expl 'HTTP header' compadd -S $suf -a headers
   ;;
 esac
+
+# vim:ft=zsh

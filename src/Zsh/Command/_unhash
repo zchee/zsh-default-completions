@@ -7,3 +7,5 @@ _arguments -s -S \
   '(-d -a -s *)-f[remove functions]:*:shell function:_functions' \
   '-m[treat arguments as patterns]' \
   '(-a -d -f -m)*:command: _command_names -e'
+
+# vim:ft=zsh

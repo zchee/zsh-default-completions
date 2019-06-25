@@ -535,3 +535,5 @@ _yum_caching_policy() {
 }
 
 _yum "$@"
+
+# vim:ft=zsh

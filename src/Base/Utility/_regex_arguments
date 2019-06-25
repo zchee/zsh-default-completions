@@ -84,3 +84,5 @@ _regex_arguments () {
 }
 
 _regex_arguments "$@"
+
+# vim:ft=zsh

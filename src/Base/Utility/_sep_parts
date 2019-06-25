@@ -144,3 +144,5 @@ done
 # This sets the return value to indicate that we added matches (or not).
 
 [[ nm -ne compstate[nmatches] ]]
+
+# vim:ft=zsh

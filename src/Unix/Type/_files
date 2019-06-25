@@ -144,3 +144,5 @@ for def in "$pats[@]"; do
 done
 
 return 1
+
+# vim:ft=zsh

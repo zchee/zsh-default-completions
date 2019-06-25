@@ -177,3 +177,5 @@ _ipsec() {
 }
 
 _ipsec "$@"
+
+# vim:ft=zsh

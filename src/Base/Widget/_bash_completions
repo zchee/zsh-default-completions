@@ -44,3 +44,5 @@ case $key in
   *) _message "Key $key is not understood"
      ;;
 esac
+
+# vim:ft=zsh

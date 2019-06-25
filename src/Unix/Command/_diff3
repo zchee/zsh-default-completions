@@ -44,3 +44,5 @@ _arguments -s -S $args \
   '3: : _wanted files expl "second updated file (${${(As.:.)opt_args[-L]}[3]:-their})" _files' \
   + '(ed)' $ed
 
+
+# vim:ft=zsh

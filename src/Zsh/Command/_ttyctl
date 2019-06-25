@@ -2,3 +2,5 @@
 
 _arguments '(-u)-f[freeze terminal settings]' \
            '(-f)-u[unfreeze terminal settings]'
+
+# vim:ft=zsh

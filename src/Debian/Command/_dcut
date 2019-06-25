@@ -158,3 +158,5 @@ function _dcut() {
 }
 
 _dcut "$@"
+
+# vim:ft=zsh

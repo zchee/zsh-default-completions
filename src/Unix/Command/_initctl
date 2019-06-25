@@ -182,3 +182,5 @@ _initctl()
 }
 
 _initctl "$@"
+
+# vim:ft=zsh

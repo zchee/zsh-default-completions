@@ -22,3 +22,5 @@ case "$service" in
 esac
 
 return
+
+# vim:ft=zsh

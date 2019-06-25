@@ -145,3 +145,5 @@ if [[ "$state" = vars_eq ]]; then
     _parameters -q -S '='
   fi
 fi
+
+# vim:ft=zsh

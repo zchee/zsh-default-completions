@@ -30,3 +30,5 @@ _pfexec() {
 }
 
 _pfexec "$@"
+
+# vim:ft=zsh

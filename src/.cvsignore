@@ -1,2 +1,4 @@
 Makefile
 *.swp
+
+# vim:ft=zsh

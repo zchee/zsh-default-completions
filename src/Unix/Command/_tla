@@ -629,3 +629,5 @@ _tla_main () {
 }
 
 _tla_main "$@"
+
+# vim:ft=zsh

@@ -41,3 +41,5 @@ while comptags "-A$__prev" "$1" curtag __spec; do
 done
 
 return __ret
+
+# vim:ft=zsh

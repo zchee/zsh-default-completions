@@ -24,3 +24,5 @@ _svcprop() {
 _svcprop "$@"
 
 # vi:tw=0
+
+# vim:ft=zsh

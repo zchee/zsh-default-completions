@@ -45,3 +45,5 @@
 #         (( i++ ))
 #       done
 #     fi
+
+# vim:ft=zsh

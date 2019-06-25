@@ -1075,3 +1075,5 @@ _hg_cmd_strip() {
 }
 
 _hg "$@"
+
+# vim:ft=zsh

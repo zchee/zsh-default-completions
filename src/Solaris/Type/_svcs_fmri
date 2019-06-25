@@ -94,3 +94,5 @@ _smf_caching_policy() {
 }
 
 _svcs_fmri "$@"
+
+# vim:ft=zsh

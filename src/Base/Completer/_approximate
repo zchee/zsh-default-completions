@@ -123,3 +123,5 @@ done
 compstate[pattern_match]="$opm"
 
 return 1
+
+# vim:ft=zsh

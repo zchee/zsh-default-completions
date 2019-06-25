@@ -58,3 +58,5 @@ fi
             '/^nedit.languageMode/,/^nedit/ s/.*	\([^:]*\).*/\1/p' < ~/.nedit)"} && ret=0
 
 return ret
+
+# vim:ft=zsh

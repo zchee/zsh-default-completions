@@ -148,3 +148,5 @@ Path=([^
 fi
 
 return ret
+
+# vim:ft=zsh

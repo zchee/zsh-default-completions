@@ -16,3 +16,5 @@ fi
 
 _wanted cursors expl 'cursor name' \
     compadd "$@" -M 'm:-=_ r:|_=*' -a - _cursor_cache
+
+# vim:ft=zsh

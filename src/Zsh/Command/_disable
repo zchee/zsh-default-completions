@@ -14,3 +14,5 @@ _arguments -C -s -A "-*" -S \
   "(-a -f -r -s)-p[act on pattern characters]:*:pattern characters:compadd -k patchars" \
   '-m[treat arguments as patterns]' \
   "*:builtin command:(${(k)builtins})"
+
+# vim:ft=zsh

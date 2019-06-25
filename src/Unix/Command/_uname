@@ -79,3 +79,5 @@ else
   esac
   _arguments -s $args
 fi
+
+# vim:ft=zsh

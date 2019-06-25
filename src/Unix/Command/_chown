@@ -115,3 +115,5 @@ case $state in
 esac
 
 return ret
+
+# vim:ft=zsh

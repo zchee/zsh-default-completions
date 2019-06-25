@@ -27,3 +27,5 @@ _arguments \
   '--enable-usb-host-mode[set the device into USB host mode]' \
   '--disable-usb-host-mode[set the device into USB peripheral mode]' \
   '--flash-only:components'
+
+# vim:ft=zsh

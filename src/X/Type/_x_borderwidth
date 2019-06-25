@@ -7,3 +7,5 @@ if (( x )); then
 else
   _message -e values 'border width'
 fi
+
+# vim:ft=zsh

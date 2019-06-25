@@ -23,3 +23,5 @@ _arguments \
   '--nntp[use builtin NNTP support]' \
   '--pull[spool outgoing articles locally]' \
   '--spool[read directly from spool]' \
+
+# vim:ft=zsh

@@ -10,3 +10,5 @@ else
 fi
 
 _wanted locales expl locale compadd -a "$@" - locales
+
+# vim:ft=zsh

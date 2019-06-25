@@ -154,3 +154,5 @@ _mtools() {
 }
 
 _mtools "$@"
+
+# vim:ft=zsh

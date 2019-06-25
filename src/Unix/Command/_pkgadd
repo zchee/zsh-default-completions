@@ -30,3 +30,5 @@ _pkgadd() {
 }
 
 _pkgadd "$@"
+
+# vim:ft=zsh

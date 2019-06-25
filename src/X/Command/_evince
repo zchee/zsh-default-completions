@@ -24,3 +24,5 @@ _arguments -s -S \
   '(-l --find)'{-l,--find=}'[specify word or phrase to find in the document]:word or phrase' \
   '--display=[specify X display]:display:_x_display' \
   '*:document file:_files -g "*.(#i)(dvi|djvu|pdf|ps|eps|tif|tiff)(-.)"' \
+
+# vim:ft=zsh

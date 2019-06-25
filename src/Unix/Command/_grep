@@ -123,3 +123,5 @@ esac
 
 _arguments -S -s $arguments[@]
 
+
+# vim:ft=zsh

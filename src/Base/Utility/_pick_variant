@@ -47,3 +47,5 @@ done
 [[ $pre != builtin ]] && _cmd_variant[$opts[-c]]="$1"
 
 return 1
+
+# vim:ft=zsh

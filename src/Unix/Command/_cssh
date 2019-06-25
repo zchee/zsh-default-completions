@@ -19,3 +19,5 @@ _arguments \
   '-i[ignore errors from unresolvable hostnames]' \
   '-e[evaluate arguments to identify potential errors]:userhostport:_user_at_host' \
   '*:userhostport: _alternative hosts:host:_hosts usersathosts:userathost:_user_at_host'
+
+# vim:ft=zsh

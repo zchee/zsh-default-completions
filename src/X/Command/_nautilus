@@ -11,3 +11,5 @@ _arguments \
   '--version[show version]' \
   '*:URI: _alternative "files:file:_files" "urls:URL:_urls"'
 
+
+# vim:ft=zsh

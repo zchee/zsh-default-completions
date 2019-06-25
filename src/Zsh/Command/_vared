@@ -12,3 +12,5 @@ _arguments -s -A "-*" \
   '-e[exit on EOF (^D)]' \
   '1:parameter spec:_vars'
 
+
+# vim:ft=zsh

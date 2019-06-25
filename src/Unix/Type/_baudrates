@@ -75,3 +75,5 @@ fi
 # -1 removes dupes (which there shouldn't be)
 _description -1 -o numeric baud-rates expl 'baud rate'
 compadd "${argv[@]}" "$expl[@]" -- "${rates[@]}"
+
+# vim:ft=zsh

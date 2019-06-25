@@ -76,3 +76,5 @@ fi
 
 _wanted hosts expl host \
     compadd -M 'm:{a-zA-Z}={A-Za-z} r:|.=* r:|=*' -a "$@" - _hosts
+
+# vim:ft=zsh

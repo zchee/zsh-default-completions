@@ -45,3 +45,5 @@ _arguments -s -S \
   '(- :)--version[display version string and exit]' \
   '(- :)--help[display help and exit]' \
   '*:file:_zathura_files'
+
+# vim:ft=zsh

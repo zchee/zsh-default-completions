@@ -88,3 +88,5 @@ if (( $#screens )); then
 fi
 
 _default
+
+# vim:ft=zsh

@@ -30,3 +30,5 @@ while _tags; do
 done
 
 return ret
+
+# vim:ft=zsh

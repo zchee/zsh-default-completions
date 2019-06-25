@@ -21,3 +21,5 @@ _arguments \
 
   ;;
 esac
+
+# vim:ft=zsh

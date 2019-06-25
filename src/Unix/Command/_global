@@ -43,3 +43,5 @@ _arguments \
   '(- :)--version[display version information]' \
   '(- :)--help[display help information]' \
   ':word:_global_tags'
+
+# vim:ft=zsh

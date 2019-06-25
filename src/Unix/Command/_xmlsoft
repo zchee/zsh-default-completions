@@ -139,3 +139,5 @@ case $service in
 esac
 
 return 1
+
+# vim:ft=zsh

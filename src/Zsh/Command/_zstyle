@@ -676,3 +676,5 @@ while (( $#state )); do
 done
 
 [[ $compstate[nmatches] != $nm ]]
+
+# vim:ft=zsh

@@ -147,3 +147,5 @@ _osc_cmd_do() {
 _osc "$@"
 
 
+
+# vim:ft=zsh

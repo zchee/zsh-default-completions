@@ -8,3 +8,5 @@ _arguments -s -A '-*' : \
   '(- :)-E[specify command path and args to execute]: :_absolute_command_paths:*:: :_normal' \
   '1: : _alternative "processes:: _pids"
 	"processes-names:: _process_names -a"'
+
+# vim:ft=zsh

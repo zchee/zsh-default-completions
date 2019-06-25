@@ -23,3 +23,5 @@ _arguments -s -S \
   + '(H)' \
   '(- *)'{-h,--help}'[display help information]' \
   '(- *)'{-V,--version}'[display version information]'
+
+# vim:ft=zsh

@@ -75,3 +75,5 @@ else # bsd and darwin
   _arguments -s -S -A '-*' : $args
 
 fi
+
+# vim:ft=zsh

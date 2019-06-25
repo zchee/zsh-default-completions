@@ -153,3 +153,5 @@ _modutils() {
 }
 
 _modutils "$@"
+
+# vim:ft=zsh

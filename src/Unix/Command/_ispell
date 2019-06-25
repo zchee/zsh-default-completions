@@ -94,3 +94,5 @@ ijoin)
     ':second input file:_files'
   ;;
 esac
+
+# vim:ft=zsh

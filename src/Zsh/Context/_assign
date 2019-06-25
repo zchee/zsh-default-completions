@@ -1,3 +1,5 @@
 #compdef -assign-parameter-
 
 _parameters -g "^*readonly*" -S ''
+
+# vim:ft=zsh

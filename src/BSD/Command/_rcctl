@@ -40,3 +40,5 @@ case $service in
     _arguments "*:service to $words[2]:_services"
     ;;
 esac
+
+# vim:ft=zsh

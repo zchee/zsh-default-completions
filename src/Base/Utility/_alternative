@@ -81,3 +81,5 @@ for descr in "$mesgs[@]"; do
 done
 
 return 1
+
+# vim:ft=zsh

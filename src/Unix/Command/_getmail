@@ -25,3 +25,5 @@ local -a arguments
         '(--new -n --all -a)'{--new,-n}'[retrieve only new messages]'
     )
 _arguments -s -S $arguments
+
+# vim:ft=zsh

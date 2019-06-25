@@ -61,3 +61,5 @@ else
 	'files:PDF files:_pdfwithhandle' \
 	"operations:operations:($operations)"
 fi
+
+# vim:ft=zsh

@@ -17,3 +17,5 @@ case $OSTYPE in
 
   *) _default;;
 esac
+
+# vim:ft=zsh

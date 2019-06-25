@@ -208,3 +208,5 @@ if [[ $state == atoms ]]; then
 fi
 
 return ret
+
+# vim:ft=zsh

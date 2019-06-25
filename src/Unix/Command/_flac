@@ -118,3 +118,5 @@ case $service in
       --remove-all --merge-padding --sort-padding
   ;;
 esac
+
+# vim:ft=zsh

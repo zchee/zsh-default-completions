@@ -466,3 +466,5 @@ _opkg() {
 }
 
 _opkg "$@"
+
+# vim:ft=zsh

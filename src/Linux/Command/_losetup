@@ -44,3 +44,5 @@ _arguments -s -S \
   - 'assoc' \
   '(-j --associated)'{-j,--associated}'[show the status of all loop devices associated with an file]:associated file:_files' \
   "(-f)$device"
+
+# vim:ft=zsh

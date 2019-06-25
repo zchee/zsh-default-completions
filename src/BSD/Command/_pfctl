@@ -119,3 +119,5 @@ _arguments -s $args \
   '-v[produce more verbose output]' \
   '-x+[set the debug level]:debug level:(($pfctl_debug_level))' \
   '-z[clear per-rule statistics]'
+
+# vim:ft=zsh

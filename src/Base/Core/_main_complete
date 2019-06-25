@@ -410,3 +410,5 @@ _lastcomp[qisuffix]="$QISUFFIX"
 _lastcomp[tags]="$_comp_tags"
 
 return ret
+
+# vim:ft=zsh

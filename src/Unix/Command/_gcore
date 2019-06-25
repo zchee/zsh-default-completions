@@ -47,3 +47,5 @@ case $OSTYPE in
       ':pid:_pids'
   ;;
 esac
+
+# vim:ft=zsh

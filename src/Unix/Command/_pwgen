@@ -17,3 +17,5 @@ _arguments -s -S \
   '(-N --num-passwords 2)'{-N,--num-passwords}'[specify number of passwords to generate]' \
   '!-a' '!--alt-phonics' \
   '1: :_guard "^-*" "length"' '(-N --num-passwords)2: :_guard "^-*" "number of passwords"'
+
+# vim:ft=zsh

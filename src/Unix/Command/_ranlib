@@ -11,3 +11,5 @@ _arguments \
     "(-)-[no more options]" \
     "1:archive: _files"
 
+
+# vim:ft=zsh

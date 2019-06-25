@@ -103,3 +103,5 @@ case $line[1] in
 esac
 
 _message "no more arguments"
+
+# vim:ft=zsh

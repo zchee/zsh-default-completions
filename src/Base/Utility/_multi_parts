@@ -259,3 +259,5 @@ while true; do
     return
   fi
 done
+
+# vim:ft=zsh

@@ -137,3 +137,5 @@ mv -f $_d_file ${_d_file%.$HOST.$$}
 
 unfunction compdump
 autoload -Uz compdump
+
+# vim:ft=zsh

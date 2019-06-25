@@ -49,3 +49,5 @@ _arguments : \
     '-w[adjust result display width]:number' \
     '-y[override value of $SYBASE]:_directories' \
     '-z[alternate display language]:language'
+
+# vim:ft=zsh

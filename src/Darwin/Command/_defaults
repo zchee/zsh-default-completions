@@ -70,3 +70,5 @@ _defaults(){
 }
 
 _defaults "$@"
+
+# vim:ft=zsh

@@ -1146,3 +1146,5 @@ _postgresql() {
 }
 
 _postgresql "$@"
+
+# vim:ft=zsh

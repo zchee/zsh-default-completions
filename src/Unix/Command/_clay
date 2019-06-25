@@ -40,3 +40,5 @@ _arguments -C \
   "-v[display version info]" \
   ":program file:_files -g '*.clay(-.)'"
 
+
+# vim:ft=zsh

@@ -45,3 +45,5 @@ _all_matches_end() {
 }
 
 _all_matches "$@"
+
+# vim:ft=zsh

@@ -8,3 +8,5 @@ argv[(i)-b]=()
 
 _wanted visuals expl visual compadd "$@" -M 'm:{a-zA-Z}={A-Za-z}' - \
     $best DirectColor TrueColor PseudoColor StaticColor GrayScale StaticGray
+
+# vim:ft=zsh

@@ -333,3 +333,5 @@ if [[ $state == 'files_or_remotes' ]]; then
 fi
 
 return ret
+
+# vim:ft=zsh

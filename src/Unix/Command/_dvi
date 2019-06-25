@@ -102,3 +102,5 @@ dvitodvi)
   _files "$expl[@]" -g '*.(dvi|DVI)(-.)'
   ;;
 esac
+
+# vim:ft=zsh

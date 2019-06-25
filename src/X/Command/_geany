@@ -28,3 +28,5 @@ _arguments -s -S \
   "${ign}(- *)"{-V,--version}'[display version information]' \
   '--display=[specify X display to use]:display:_x_display' \
   '(-g --generate-tags)*: :_files'
+
+# vim:ft=zsh

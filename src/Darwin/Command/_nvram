@@ -28,3 +28,5 @@ _arguments -s : \
 }
 
 return ret
+
+# vim:ft=zsh

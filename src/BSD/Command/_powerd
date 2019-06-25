@@ -13,3 +13,5 @@ _arguments -s \
   '-P+[alternative pidfile]:pidfile:_files' \
   '-r+[CPU idle percent level where to increase performance]:percent' \
   '-v[verbose mode]'
+
+# vim:ft=zsh

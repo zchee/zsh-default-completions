@@ -34,3 +34,5 @@ _dhcpinfo() {
 }
 
 _dhcpinfo "$@"
+
+# vim:ft=zsh

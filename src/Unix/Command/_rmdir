@@ -30,3 +30,5 @@ esac
 _arguments -s -S $aopts \
   $args \
   '*: :_directories'
+
+# vim:ft=zsh

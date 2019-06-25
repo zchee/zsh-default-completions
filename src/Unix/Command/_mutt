@@ -26,3 +26,5 @@ _arguments -s -S \
   '-y[start listing mailboxes]' \
   '-z[start only if new messages]' \
   '-Z[open first mailbox with new mail]'
+
+# vim:ft=zsh

@@ -583,3 +583,5 @@ _baz_main () {
 }
 
 _baz_main "$@"
+
+# vim:ft=zsh

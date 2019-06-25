@@ -161,3 +161,5 @@ case $service in
           esac
         ;;
 esac
+
+# vim:ft=zsh

@@ -675,3 +675,5 @@ _ssh_users () {
 }
 
 _ssh "$@"
+
+# vim:ft=zsh

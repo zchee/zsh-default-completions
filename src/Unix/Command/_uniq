@@ -31,3 +31,5 @@ fi
 _arguments "$args[@]" \
   '1::input file:_files' \
   '2::output file:_files'
+
+# vim:ft=zsh

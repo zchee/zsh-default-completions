@@ -7,3 +7,5 @@ if (( x )); then
 else
   _message -e locales 'locale'
 fi
+
+# vim:ft=zsh

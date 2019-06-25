@@ -27,3 +27,5 @@ case $state in
     esac
   ;;
 esac
+
+# vim:ft=zsh

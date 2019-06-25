@@ -18,3 +18,5 @@ _arguments -S \
   '(-)'{-?,--help,-h}'[display help information]' \
   '(-)*:quicktime file:_files'
 
+
+# vim:ft=zsh

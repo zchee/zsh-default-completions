@@ -156,3 +156,5 @@ elif [[ "$state" = config* ]]; then
 fi
 
 return ret
+
+# vim:ft=zsh

@@ -18,3 +18,5 @@ fi
 
 _description files expl 'PDF file'
 _files "$@" "$expl[@]" -g "*.(#i)pdf$ext(-.)"
+
+# vim:ft=zsh

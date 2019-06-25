@@ -23,3 +23,5 @@ _arguments -C \
 [[ "$state" = fastpath ]] && (( $+commands[odmget] )) &&
   _wanted fastpaths expl 'fast path' compadd \
       $(odmget sm_cmd_hdr sm_name_hdr|sed -n 's/^	id = \"\(.*\)\"/\1/p')
+
+# vim:ft=zsh

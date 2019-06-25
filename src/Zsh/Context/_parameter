@@ -1,3 +1,5 @@
 #compdef -parameter-
 
 _parameters -e
+
+# vim:ft=zsh

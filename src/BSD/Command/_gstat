@@ -12,3 +12,5 @@ _arguments -s : \
   "-s[enable blocks' size statistics]" \
   '-I+[display refresh rate]:interval (ms)' \
   '-p[only display physical providers]'
+
+# vim:ft=zsh

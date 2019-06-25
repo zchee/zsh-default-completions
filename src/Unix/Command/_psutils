@@ -117,3 +117,5 @@ showchar)
     ':character name:'
   ;;
 esac
+
+# vim:ft=zsh

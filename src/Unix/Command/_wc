@@ -24,3 +24,5 @@ else
 fi
 
 _arguments -s -S $args '*:file:_files'
+
+# vim:ft=zsh

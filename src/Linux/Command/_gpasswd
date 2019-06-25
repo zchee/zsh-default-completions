@@ -10,3 +10,5 @@ _arguments -s \
   '(-M --members -A --administrators)'{-M,--members}'[set the list of members of GROUP]: :_sequence _users' \
   '(-A --administrators -M --members)'{-A,--administrators}'[set the list of admins for GROUP]: :_sequence _users' \
   '1: : _groups'
+
+# vim:ft=zsh

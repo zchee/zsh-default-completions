@@ -39,3 +39,5 @@ if [[ $state = hashval ]]; then
 fi
 
 return ret
+
+# vim:ft=zsh

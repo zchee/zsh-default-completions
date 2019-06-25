@@ -20,3 +20,5 @@ fi
 
 _wanted keysyms expl 'key symbol' \
     compadd "$@" -M 'm:{a-z}={A-Z} r:|-=* r:|=*' -a - _keysym_cache
+
+# vim:ft=zsh

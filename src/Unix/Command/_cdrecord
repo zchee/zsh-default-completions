@@ -103,3 +103,5 @@ if [[ -n $state ]]; then
   esac
   
 fi
+
+# vim:ft=zsh

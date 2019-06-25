@@ -21,3 +21,5 @@ _arguments \
   '-t[mail output of cron command, if any, to address]:address' \
   '--currently-running[assume specified release as current]:release' \
   '*:command:_values -S " " -w "commands" $flags[@]'
+
+# vim:ft=zsh

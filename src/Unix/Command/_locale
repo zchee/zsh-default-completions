@@ -82,3 +82,5 @@ if [[ $state == catkey ]]; then
 fi
 
 return ret
+
+# vim:ft=zsh

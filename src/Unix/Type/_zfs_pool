@@ -1,3 +1,5 @@
 #autoload
 
 compadd "$@" - $(zpool list -H -o name)
+
+# vim:ft=zsh

@@ -46,3 +46,5 @@ if [[ -z "$minus" ]] ||
       compadd "$@" "$disp[@]" -M 'm:{a-z}={A-Z}' - \
               "${minus}${(@)^signals[first,last]}" "$sigs[@]"
 fi
+
+# vim:ft=zsh

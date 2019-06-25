@@ -49,3 +49,5 @@ _arguments -s \
   \(${(j. .)opts:#-F}")-bail[exit if pinerc file doesn't already exist]" \
   '*::recipient:_email_addresses -n pine' \
   ${^_cache_pine_options}':option value'
+
+# vim:ft=zsh

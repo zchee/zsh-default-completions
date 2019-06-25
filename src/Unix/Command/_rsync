@@ -247,3 +247,5 @@ _rsync() {
 }
 
 _rsync "$@"
+
+# vim:ft=zsh

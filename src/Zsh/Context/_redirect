@@ -16,3 +16,5 @@ if [[ "$CURRENT" != "1" ]]; then
 fi
 
 _dispatch -redirect-,{${compstate[redirect]},-default-},${^strs}
+
+# vim:ft=zsh

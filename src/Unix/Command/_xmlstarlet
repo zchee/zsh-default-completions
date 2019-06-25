@@ -175,3 +175,5 @@ if [[ -n $state ]]; then
 fi
 
 return ret
+
+# vim:ft=zsh

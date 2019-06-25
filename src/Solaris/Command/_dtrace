@@ -39,3 +39,5 @@ _dtrace() {
 }
 
 _dtrace "$@"
+
+# vim:ft=zsh

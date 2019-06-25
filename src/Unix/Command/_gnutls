@@ -212,3 +212,5 @@ case "$service" in
 esac
 
 _arguments -s -S $args
+
+# vim:ft=zsh

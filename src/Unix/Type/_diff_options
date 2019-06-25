@@ -186,3 +186,5 @@ else
     '-r[recursively compare subdirectories]' \
     "$@"
 fi
+
+# vim:ft=zsh

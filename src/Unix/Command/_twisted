@@ -31,3 +31,5 @@ else
     echo $output
     return 1
 fi
+
+# vim:ft=zsh

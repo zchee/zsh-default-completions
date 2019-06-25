@@ -424,3 +424,5 @@ while (( $#state )); do
 done
 
 return ret
+
+# vim:ft=zsh

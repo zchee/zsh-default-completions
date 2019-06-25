@@ -16,3 +16,5 @@ _arguments \
   '-batch[disable all interactive prompts]' \
   '-unsafe[allow server-side wildcards (DANGEROUS)]' \
   '*: :_files'
+
+# vim:ft=zsh

@@ -12,3 +12,5 @@ fi
 
 _description files expl 'PostScript file'
 _files "$@" "$expl[@]" -g "*.(#i)(ps|eps)$ext(-.)"
+
+# vim:ft=zsh

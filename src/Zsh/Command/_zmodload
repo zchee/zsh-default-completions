@@ -76,3 +76,5 @@ else
   done
   return ret
 fi
+
+# vim:ft=zsh

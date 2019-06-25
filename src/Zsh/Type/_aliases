@@ -17,3 +17,5 @@ args=()
 [[ $sel = *S* ]] && args=( $args 'disabled-suffix-aliases:disabled suffix alias:compadd -k dis_saliases' )
 
 _alternative -O opts $args
+
+# vim:ft=zsh

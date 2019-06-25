@@ -20,3 +20,5 @@ _arguments -s -S -A '-*' : \
   '(-C *)-s[run a shell]' \
   '-u+[run command as specified user]:user:_users' \
   '*::arguments:{ _comp_priv_prefix=( $cmd -n ${(kv)opt_args[-u]} ) ; _normal }'
+
+# vim:ft=zsh

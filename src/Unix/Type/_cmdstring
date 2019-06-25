@@ -4,3 +4,5 @@
 
 compset -q
 _normal
+
+# vim:ft=zsh

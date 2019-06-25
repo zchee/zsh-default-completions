@@ -18,3 +18,5 @@ _arguments -s \
   '(- *)'{-N+,--create-rc-to=}'[create new configuration to the specified file and exit]: :_files' \
   '(- *)'{-h,--help}'[display help text and exit]' \
   '(- *)'{-V,--version}'[display version information and exit]'
+
+# vim:ft=zsh

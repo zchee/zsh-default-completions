@@ -3,3 +3,5 @@
 _command_names
 local ret=$?
 [[ -o autocd ]] && _cd || return ret
+
+# vim:ft=zsh

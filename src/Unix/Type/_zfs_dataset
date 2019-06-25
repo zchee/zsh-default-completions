@@ -75,3 +75,5 @@ if [[ -n $expl_type_arr[2] ]]; then
 fi
 
 _wanted dataset expl "$expl_type" _multi_parts "$@" -q / datasetlist
+
+# vim:ft=zsh

@@ -57,3 +57,5 @@ _arguments -s -S \
       no-stack-size)' \
   \*{-Y,--repository}'[search specified repository for files]:repository:_files' \
   '*:target:_default' # Doesn't seem to be a simple way to get a list of targets
+
+# vim:ft=zsh

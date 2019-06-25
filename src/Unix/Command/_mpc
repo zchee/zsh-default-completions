@@ -368,3 +368,5 @@ if [[ $state = formats ]]; then
 fi
 
 return ret
+
+# vim:ft=zsh

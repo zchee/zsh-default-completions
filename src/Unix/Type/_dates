@@ -125,3 +125,5 @@ for ((;rows;rows--)); do
     done
   done
 done
+
+# vim:ft=zsh

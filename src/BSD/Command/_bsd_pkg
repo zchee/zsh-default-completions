@@ -249,3 +249,5 @@ _bsd_pkg() {
 }
 
 _bsd_pkg "$@"
+
+# vim:ft=zsh

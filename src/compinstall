@@ -2011,3 +2011,5 @@ fi
 
 __ci_tidyup
 return 0
+
+# vim:ft=zsh

@@ -538,3 +538,5 @@ _adb_cache_policy_daily () {
 
 
 _adb $@
+
+# vim:ft=zsh

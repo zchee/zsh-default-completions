@@ -64,3 +64,5 @@ case "$service" in
 esac
 
 return ret
+
+# vim:ft=zsh

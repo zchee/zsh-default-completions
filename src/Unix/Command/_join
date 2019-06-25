@@ -27,3 +27,5 @@ case $variant in
 esac
 
 _arguments -s $args
+
+# vim:ft=zsh

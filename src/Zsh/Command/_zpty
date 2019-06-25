@@ -60,3 +60,5 @@ if [[ $state = name ]]; then
 else
   return 1
 fi
+
+# vim:ft=zsh

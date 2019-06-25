@@ -30,3 +30,5 @@ else
     '--autocleanaptcache' \
     '*:source package:_files -g "*.dsc(-.)"'
 fi
+
+# vim:ft=zsh

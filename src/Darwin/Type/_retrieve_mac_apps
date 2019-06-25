@@ -104,3 +104,5 @@ _retrieve_mac_apps() {
 }
 
 _retrieve_mac_apps "$@"
+
+# vim:ft=zsh

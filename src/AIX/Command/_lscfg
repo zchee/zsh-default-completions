@@ -20,3 +20,5 @@ if [[ "$state" = device ]]; then
 fi
 
 return 1
+
+# vim:ft=zsh

@@ -28,3 +28,5 @@ case "$state" in
       fi
     ;;
 esac
+
+# vim:ft=zsh

@@ -196,3 +196,5 @@ _xset () {
 }
 
 _xset "$@"
+
+# vim:ft=zsh

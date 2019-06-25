@@ -42,3 +42,5 @@ _yafc_address() {
 }
 
 _yafc "$@"
+
+# vim:ft=zsh

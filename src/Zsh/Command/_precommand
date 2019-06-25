@@ -4,3 +4,5 @@ shift words
 (( CURRENT-- ))
 
 _normal -p $service
+
+# vim:ft=zsh

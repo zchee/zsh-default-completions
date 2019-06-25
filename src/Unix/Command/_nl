@@ -38,3 +38,5 @@ if [[ -n $state ]]; then
     )'
   fi
 fi || return ret
+
+# vim:ft=zsh

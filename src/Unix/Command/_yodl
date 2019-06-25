@@ -12,3 +12,5 @@ _arguments -s \
   '-w[enable warnings]' \
   '-h[show usage information]' \
   '*:YODL input file:_files -g "*.(#i)yo(|dl)(-.)"'
+
+# vim:ft=zsh

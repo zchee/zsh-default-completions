@@ -35,3 +35,5 @@ args+=( '!(-0 -1 -2 -3 -4 -5 -6 -7 -8 -9 -t --tabs)-'{0..9} )
 _arguments -s -S "$args[@]" \
   "(--tabs --help)-t+${tabs}" \
   '*:file:_files'
+
+# vim:ft=zsh

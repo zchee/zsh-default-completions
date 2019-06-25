@@ -110,3 +110,5 @@ args+=(
 )
 
 _arguments -s -S -A '-*' : $args
+
+# vim:ft=zsh

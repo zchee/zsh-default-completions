@@ -53,3 +53,5 @@ if (( $#args )); then
 fi
 
 _default
+
+# vim:ft=zsh

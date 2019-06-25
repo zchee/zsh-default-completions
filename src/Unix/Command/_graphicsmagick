@@ -545,3 +545,5 @@ esac
 fi
 
 return 1
+
+# vim:ft=zsh

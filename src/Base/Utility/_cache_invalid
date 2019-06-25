@@ -19,3 +19,5 @@ zstyle -s ":completion:${curcontext}:" cache-policy _cache_policy
 [[ -n "$_cache_policy" ]] && "$_cache_policy" "$_cache_path" && return 0
 
 return 1
+
+# vim:ft=zsh

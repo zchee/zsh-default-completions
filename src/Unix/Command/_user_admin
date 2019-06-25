@@ -170,3 +170,5 @@ case ${service%???}:${(M)service%???}:$OSTYPE in
 esac
 
 _arguments -A "-*" -s $args[@]
+
+# vim:ft=zsh

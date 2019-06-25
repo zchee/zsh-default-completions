@@ -22,3 +22,5 @@ _arguments -s -S : \
   + misc \
   '(-a --algorithm)'{-a+,--algorithm=}'[specify algorithm]:algorithm:(1 224 256 384 512 512224 512256)' \
   '*: :_files'
+
+# vim:ft=zsh

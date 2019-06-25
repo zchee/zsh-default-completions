@@ -210,3 +210,5 @@ esac
 
 _arguments -s -S $args \
   '*:host:_hosts'
+
+# vim:ft=zsh

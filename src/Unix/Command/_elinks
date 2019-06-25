@@ -60,3 +60,5 @@ elif [[ "$state" = remote ]]; then
 fi
 
 return ret
+
+# vim:ft=zsh

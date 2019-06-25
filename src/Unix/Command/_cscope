@@ -27,3 +27,5 @@ _arguments -s -S \
   '-X[remove the cscope reference file and inverted indexes at end]' \
   '(-)'{-V,--version}'[display version information]' \
   '*:file:_files'
+
+# vim:ft=zsh

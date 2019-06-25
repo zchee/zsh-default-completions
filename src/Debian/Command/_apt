@@ -707,3 +707,5 @@ _apt-mark () {
 }
 
 _apt "$@"
+
+# vim:ft=zsh

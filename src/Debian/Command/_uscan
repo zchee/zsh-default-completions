@@ -15,3 +15,5 @@ _arguments \
   '(--no-conf --noconf)'{--no-conf,--noconf}'[do not read any configuration files]' \
   '--help[display help information]' \
   '--version[display version information]'
+
+# vim:ft=zsh

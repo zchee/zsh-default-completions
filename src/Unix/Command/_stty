@@ -16,3 +16,5 @@ else
               tostop echoctl echoprt echoke flusho pending iexten opost \
 	      olcuc onlcr ocrnl onocr onlret ofill ofdel raw sane
 fi
+
+# vim:ft=zsh

@@ -42,3 +42,5 @@ _alternative \
   'device-labels:device label:compadd -a dev_tmp' \
   'device-paths: device path:_canonical_paths -A dpath_tmp -N -M "r:|/=* r:|=*" device-paths device\ path' \
   'directories:mount point:_canonical_paths -A mp_tmp -N -M "r:|/=* r:|=*" directories mount\ point'
+
+# vim:ft=zsh

@@ -32,3 +32,5 @@ _x_arguments \
   '-visual:visual:_x_visual' \
   '-zoom:zoom scale' \
   '*:xfig file:_files -g "*.(#i)(|x)fig(-.)"'
+
+# vim:ft=zsh

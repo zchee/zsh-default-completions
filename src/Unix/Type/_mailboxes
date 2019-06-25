@@ -196,3 +196,5 @@ _mua_mailboxes() {
 }
 
 _mailboxes "$@"
+
+# vim:ft=zsh

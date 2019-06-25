@@ -46,3 +46,5 @@ if [[ "$state" = feed ]]; then
 fi
 
 return 1
+
+# vim:ft=zsh

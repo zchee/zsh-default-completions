@@ -53,3 +53,5 @@ esac
 
 _arguments -s -S $aopts $args \
   '*: :_files'
+
+# vim:ft=zsh

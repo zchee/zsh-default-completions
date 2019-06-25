@@ -48,3 +48,5 @@ _arguments -s \
   '(-Z --display_profile)'{-Z,--display_profile}'[specify colour profile file as display profile]:colour profile file:_files' \
   '--vikeys[enable movement with h/j/k/l]' \
   '*:image file:_files -g "*.(#i)(bmp|eim|gif|ico|jp([eg]|eg)|pcx|png|p[pngb]m|pjpeg|svg|tif(|f)|wmf|x[pb]m)(-.)"'
+
+# vim:ft=zsh

@@ -40,3 +40,5 @@ _arguments : \
   --guess-section'[try to report libraries in wrong sections]' \
   --guess-all'[try all of the above]' \
   --guess-only'[use --guess options only]'
+
+# vim:ft=zsh

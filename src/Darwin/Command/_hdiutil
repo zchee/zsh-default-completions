@@ -544,3 +544,5 @@ _hdiutil(){
 }
 
 _hdiutil "$@"
+
+# vim:ft=zsh

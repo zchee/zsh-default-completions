@@ -40,3 +40,5 @@ case "$state" in
     _describe -t database database database && return
   ;;
 esac
+
+# vim:ft=zsh

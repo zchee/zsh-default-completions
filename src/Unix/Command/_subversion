@@ -472,3 +472,5 @@ _svn_caching_policy() {
 }
 
 _subversion "$@"
+
+# vim:ft=zsh

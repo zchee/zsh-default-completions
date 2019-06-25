@@ -174,3 +174,5 @@ return 0
 }                                       # Define and then call
 
 compaudit "$@"
+
+# vim:ft=zsh

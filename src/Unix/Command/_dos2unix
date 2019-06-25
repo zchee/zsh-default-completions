@@ -127,3 +127,5 @@ case $variant in
     return
     ;;
 esac
+
+# vim:ft=zsh

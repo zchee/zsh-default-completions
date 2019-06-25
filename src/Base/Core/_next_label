@@ -23,3 +23,5 @@ if comptags -A "$1" curtag __spec; then
 fi
 
 return 1
+
+# vim:ft=zsh

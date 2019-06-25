@@ -106,3 +106,5 @@ case "$service" in
 esac
 
 _arguments : $arguments
+
+# vim:ft=zsh

@@ -110,3 +110,5 @@ _portmaster() {
   }
 
   _portmaster "$@"
+
+# vim:ft=zsh

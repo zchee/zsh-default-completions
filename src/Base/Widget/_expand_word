@@ -11,3 +11,5 @@ else
 fi
 
 _main_complete _expand
+
+# vim:ft=zsh

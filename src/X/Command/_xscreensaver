@@ -15,3 +15,5 @@ _arguments \
   '-version[prints the version of xscreensaver that is currently running]' \
   '-time[prints the time at which the screensaver last activated or deactivated]' \
   '-watch[prints a line each time the screensaver changes state]'
+
+# vim:ft=zsh

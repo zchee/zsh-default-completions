@@ -343,3 +343,5 @@ else
       ;;
       esac
 fi
+
+# vim:ft=zsh

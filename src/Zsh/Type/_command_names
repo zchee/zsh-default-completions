@@ -49,3 +49,5 @@ then
   path=( $cmdpath )
 fi
 _alternative -O args "$defs[@]"
+
+# vim:ft=zsh

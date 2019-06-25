@@ -108,3 +108,5 @@ _wanted printers expl printer \
     compadd "$@" "$disp[@]" - "${(@)_lp_alias_cache%%:*}" && return 0
 
 return 1
+
+# vim:ft=zsh

@@ -12,3 +12,5 @@ else
   fi
   _default
 fi
+
+# vim:ft=zsh

@@ -28,3 +28,5 @@ elif [[ $OSTYPE = (openbsd|netbsd)* ]]; then
 fi
 
 _arguments -s -S $aopts : $args
+
+# vim:ft=zsh

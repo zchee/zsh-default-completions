@@ -38,3 +38,5 @@ _arguments -s -S \
     3\:name\ of\ font\ figlet\ would\ use
     4\:output\ width\ in\ columns
   ))"
+
+# vim:ft=zsh

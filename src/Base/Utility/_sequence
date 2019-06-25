@@ -38,3 +38,5 @@ fi
 
 (( minus = argv[(ib:2:)-] ))
 "${(@)argv[1,minus-1]}" "$opts[@]" -F dedup "$pref[@]" "$suf[@]" "${(@)argv[minus+1,-1]}"
+
+# vim:ft=zsh

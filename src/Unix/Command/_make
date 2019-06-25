@@ -294,3 +294,5 @@ _make() {
 }
 
 _make "$@"
+
+# vim:ft=zsh

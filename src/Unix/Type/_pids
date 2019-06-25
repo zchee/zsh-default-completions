@@ -58,3 +58,5 @@ if [[ -n "$all" ]]; then
 fi
 
 return ret
+
+# vim:ft=zsh

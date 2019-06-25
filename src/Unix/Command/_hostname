@@ -74,3 +74,5 @@ _arguments -s -S $aopts : $args && ret=0
 }
 
 return ret
+
+# vim:ft=zsh

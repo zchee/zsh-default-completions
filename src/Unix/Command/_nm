@@ -134,3 +134,5 @@ else
 fi
 
 _arguments -s -S : "$args[@]" $files
+
+# vim:ft=zsh

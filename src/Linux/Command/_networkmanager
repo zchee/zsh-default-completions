@@ -378,3 +378,5 @@ _nm_agent() {
 }
 
 _networkmanager "$@"
+
+# vim:ft=zsh

@@ -848,3 +848,5 @@ _composer() {
 }
 
 _composer "$@"
+
+# vim:ft=zsh

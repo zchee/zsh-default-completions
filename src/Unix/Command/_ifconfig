@@ -85,3 +85,5 @@ _arguments -C "$args[@]" \
   'address[specify IP address of interface]:IP address' && ret=0
 
 return ret
+
+# vim:ft=zsh

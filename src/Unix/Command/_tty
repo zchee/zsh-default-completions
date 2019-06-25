@@ -16,3 +16,5 @@ else
 fi
 
 _arguments -s -S : $args
+
+# vim:ft=zsh

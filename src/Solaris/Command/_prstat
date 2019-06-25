@@ -44,3 +44,5 @@ _prstat()
 }
 
 _prstat "$@"
+
+# vim:ft=zsh

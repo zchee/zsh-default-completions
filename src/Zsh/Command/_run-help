@@ -5,3 +5,5 @@ local HELPDIR=${HELPDIR:-@runhelpdir@}
 	d=($HELPDIR/*(:t))
 	(($#d)) && d+=('.' ':') && _wanted commands expl 'command' compadd -a d
 } || _man
+
+# vim:ft=zsh

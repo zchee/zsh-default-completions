@@ -62,3 +62,5 @@ _arguments -s $args \
   '(-n -l)-L[call program for every number of lines]:number of input lines' \
   '(-):command: _command_names -e' \
   '*::args: _normal'
+
+# vim:ft=zsh

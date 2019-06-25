@@ -34,3 +34,5 @@ _add-zle-hook-widget() {
 }
 
 _add-zle-hook-widget "$@"
+
+# vim:ft=zsh

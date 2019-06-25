@@ -7,3 +7,5 @@ if (( x )); then
 else
   _message -e resources 'resource'
 fi
+
+# vim:ft=zsh

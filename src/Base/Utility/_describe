@@ -138,3 +138,5 @@ while _tags; do
 done
 
 return 1
+
+# vim:ft=zsh

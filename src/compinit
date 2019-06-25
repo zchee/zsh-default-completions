@@ -547,3 +547,5 @@ unfunction compinit compaudit
 autoload -Uz compinit compaudit
 
 return 0
+
+# vim:ft=zsh

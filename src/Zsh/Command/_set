@@ -23,3 +23,5 @@ noglob _arguments -s -S \
   {-,+}l[login] {-,+}m[monitor] {-,+}n[no-exec] {-,+}p[privileged] \
   {-,+}r[restricted] {-,+}t[singlecommand] {-,+}u[no-unset] {-,+}v[verbose] \
   {-,+}w[chaselinks] {-,+}x[xtrace] {-,+}y[shwordsplit]
+
+# vim:ft=zsh

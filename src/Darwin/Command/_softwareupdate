@@ -73,3 +73,5 @@ _softwareupdate() {
 }
 
 _softwareupdate "$@"
+
+# vim:ft=zsh

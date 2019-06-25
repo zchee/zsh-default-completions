@@ -90,3 +90,5 @@ if [[ $state == profile ]]; then
     (( $#profiles )) && \
 	compadd "$@" - ${${profiles#~/.unison/}%.prf}
 fi
+
+# vim:ft=zsh

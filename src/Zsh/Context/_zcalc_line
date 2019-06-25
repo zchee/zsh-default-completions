@@ -79,3 +79,5 @@ _zcalc_line() {
 }
 
 _zcalc_line "$@"
+
+# vim:ft=zsh

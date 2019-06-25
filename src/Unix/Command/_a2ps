@@ -62,3 +62,5 @@ if [[ $state = printers ]]; then
 fi
 
 return ret
+
+# vim:ft=zsh

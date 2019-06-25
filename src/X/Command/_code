@@ -36,3 +36,5 @@ arguments=(
 )
 
 _arguments -s -S $arguments
+
+# vim:ft=zsh

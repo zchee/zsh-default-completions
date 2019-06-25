@@ -614,3 +614,5 @@ jararg)
 esac
 
 return ret
+
+# vim:ft=zsh

@@ -26,3 +26,5 @@ if ! zstyle -a ":completion:${curcontext}:" groups groups; then
 fi
 
 _wanted groups expl group compadd -a "$@" - groups
+
+# vim:ft=zsh

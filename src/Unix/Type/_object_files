@@ -10,3 +10,5 @@ __object_file() {
 }
 
 _files -g '*(-.e,__object_file,)' "$@" "${(@)expl}"
+
+# vim:ft=zsh

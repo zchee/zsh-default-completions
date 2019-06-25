@@ -10,3 +10,5 @@ shift
 _message -e "$*"
 
 [[ -n "$PREFIX$SUFFIX" ]]
+
+# vim:ft=zsh

@@ -99,3 +99,5 @@ _setxkbmap_variant () {
 }
 
 _setxkbmap "$@"
+
+# vim:ft=zsh

@@ -17,3 +17,5 @@ _approximate && ret=0
 compstate[pattern_match]="$opm"
 
 return ret
+
+# vim:ft=zsh

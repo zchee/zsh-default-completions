@@ -40,3 +40,5 @@ case $variant in
 esac
 
 return ret
+
+# vim:ft=zsh

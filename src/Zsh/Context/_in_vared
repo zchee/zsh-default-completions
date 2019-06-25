@@ -33,3 +33,5 @@ fi
 compstate[insert]="${compstate[insert]//tab /}"
 
 _dispatch "$also" "$also"
+
+# vim:ft=zsh

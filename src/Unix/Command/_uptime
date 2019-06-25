@@ -24,3 +24,5 @@ case $variant in
   # *BSD, Darwin, Solaris, BusyBox
   *) _message 'no more arguments'; return 1 ;;
 esac
+
+# vim:ft=zsh

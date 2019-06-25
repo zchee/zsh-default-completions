@@ -41,3 +41,5 @@ _arguments \
   '(-@ --xargs)'{-@,--xargs}'[insert command line arguments taken from the given file]:file:_files' \
   '1:command: _describe -t commands command cmds' \
   '*:file:_files'
+
+# vim:ft=zsh

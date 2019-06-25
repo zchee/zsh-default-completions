@@ -112,3 +112,5 @@ elif [[ "$state" = servers ]]; then
 fi
 
 return ret
+
+# vim:ft=zsh

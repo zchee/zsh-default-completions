@@ -57,3 +57,5 @@ case $words[1] in
 esac
 
 return ret
+
+# vim:ft=zsh

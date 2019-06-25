@@ -59,3 +59,5 @@ case $state in
       {lookahead,{w,r}cache,wcreorder}':enable:(on off)' security security-freeze
   ;;
 esac
+
+# vim:ft=zsh

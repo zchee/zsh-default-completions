@@ -77,3 +77,5 @@ fi
        ( "$val" = [0-9]## &&
          ( -z "$_comp_force_list" || _comp_force_list -gt val ) ) ]] &&
     _comp_force_list="$val"
+
+# vim:ft=zsh

@@ -67,3 +67,5 @@ while true; do
     *) return 1 ;;
   esac
 done
+
+# vim:ft=zsh

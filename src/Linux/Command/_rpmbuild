@@ -51,3 +51,5 @@ _arguments \
 	"(--clean $b_cmds $t_cmds --rebuild)"--recompile'[recompile source package]' \
 	"(--clean $b_cmds $t_cmds --recompile)"--rebuild'[rebuild source package]' \
 	"*:file:_files -g '(#i)*.(spec|srpm|tgz|tar|tar.gz|tar.bz2)(-.)'" && ret=0
+
+# vim:ft=zsh

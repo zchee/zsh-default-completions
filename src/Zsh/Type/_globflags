@@ -45,3 +45,5 @@ flags=(
 _describe -t globflags "glob flag" flags -Q -S '' && ret=0
 
 return ret
+
+# vim:ft=zsh

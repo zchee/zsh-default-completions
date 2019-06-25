@@ -62,3 +62,5 @@ else
 fi
 
 return 0
+
+# vim:ft=zsh

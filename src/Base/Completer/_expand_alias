@@ -65,3 +65,5 @@ elif (( $#pre )) && zstyle -t ":completion:${curcontext}:" complete; then
 else
   return 1
 fi
+
+# vim:ft=zsh

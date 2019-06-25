@@ -13,3 +13,5 @@ else
 	_description format expl "keysource format"
 	compadd $suf -q "$expl[@]" "$@" raw hex passphrase
 fi
+
+# vim:ft=zsh

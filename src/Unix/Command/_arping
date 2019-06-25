@@ -54,3 +54,5 @@ _arguments -s -S  -A "-*" \
   '(-B):address:_hosts'
  
 fi
+
+# vim:ft=zsh

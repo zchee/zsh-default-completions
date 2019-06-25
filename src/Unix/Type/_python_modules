@@ -40,3 +40,5 @@ for importer, name, ispkg in pkgutil.iter_modules(): print(name)'
 }
 
 _python_modules "$@"
+
+# vim:ft=zsh

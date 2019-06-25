@@ -210,3 +210,5 @@ elif compset -P '*:'; then
 fi
 
 _parameters -e
+
+# vim:ft=zsh

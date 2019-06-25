@@ -12,3 +12,5 @@ _arguments -s \
     '-f[check the packages listed in file]:file:_files' \
     '-r[restrict listed vulnerabilities with eregex pattern]:eregex:' \
     ':pkg-name:'
+
+# vim:ft=zsh
