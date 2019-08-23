@@ -10,7 +10,7 @@ src: clean/src
 	cp -rH zsh/Completion ./src
 
 magic: src
-	find ./src -type f | xargs -I{} -P $(shell nproc) bash -c "printf '\\n# vim:ft=zsh' >> {}"
+	find ./src -type f | xargs -I{} -P $(shell nproc) bash -c 'printf "\\n# vim:ft=zsh\\n" >> {}'
 
 .PHONY: commit
 commit:
